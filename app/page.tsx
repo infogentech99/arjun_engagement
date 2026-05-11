@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useEffect, useState, useRef, useMemo } from "react";
 import FallingLamps from "@/app/components/FallingLamps";
 import CoupleMessage from "@/app/components/CoupleMessage";
@@ -44,60 +45,42 @@ export default function Home() {
     {
       title_ceremony: "Mehendi",
       image: "/assets/mehendi.webp",
-      date: "Tuesday, September 10th 2026",
-      venue: "Hyatt Regency Delhi",
-      venue_address: <>Ring Road, Bhikaji Cama Place, <br />  RK Puram, New Delhi 110066</>,
-      time: "7:00 pm onwards",
+      venue_address: <>Friday, March 9th 2026 <br /> Taj Exotica Resort, Goa <br /> 9pm Onwards</>,
       link: "https://maps.app.goo.gl/53z68ksx4cYgoNm59",
     },
 
     {
-      title_ceremony: "Manjha",
-      image: "/assets/manjha.webp",
-      date: "Friday, September 13th 2026",
-      venue: "Golden Gate Banquet",
-      venue_address: <>Block B, Mayapuri Industrial Area Phase I, Mayapuri<br /> Delhi 110064</>,
-      time: "4:00pm Onwards",
+      title_ceremony: "Haldi",
+      image: "/assets/haldi.webp",
+      venue_address: <>Friday, March 9th 2026 <br /> Taj Exotica Resort, Goa <br /> 6pm Onwards</>,
       link: "https://maps.app.goo.gl/ywMPWwHjbXvqwiWc8",
     },
     {
-      title_ceremony: "Sangeet",
-      image: "/assets/sangeet.webp",
-      date: "Sunday, September 15th 2026",
-      venue: "The Ashok Hotel",
-      venue_address: <>50-B, Diplomatic Enclave,<br /> Chanakyapuri, New Delhi – 110021</>,
-      time: "8pm Onwards",
+      title_ceremony: "Cocktail",
+      image: "/assets/cocktail.webp",
+      venue_address: <>Friday, March 9th 2026<br /> JW Mariott, Mussoorie <br /> 6pm Onwards</>,
       link: "https://maps.app.goo.gl/f599YkTSEYKDEK5L7",
     },
 
     {
       title_ceremony: "Engagement",
       image: "/assets/engagement.webp",
-      date: "Tuesday, September 10th 2026",
-      venue: "Hyatt Regency Delhi",
-      venue_address: <>Ring Road, Bhikaji Cama Place, <br />  RK Puram, New Delhi 110066</>,
-      time: "7:00 pm onwards",
+      venue_address: <>Friday, March 9th 2026 <br /> Taj Exotica Resort, Goa <br /> 6pm Onwards</>,
       link: "https://maps.app.goo.gl/53z68ksx4cYgoNm59",
     },
 
     {
-      title_ceremony: "Nikah",
-      image: "/assets/nikah.webp",
-      date: "Friday, September 13th 2026",
-      venue: "The Leela Palace",
-      venue_address: <>Africa Ave, Diplomatic Enclave, Chanakyapuri,<br /> Delhi 110023</>,
-      time: "4:00pm Onwards",
+      title_ceremony: "Shaadi",
+      image: "/assets/shaadi.webp",
+      venue_address: <>Friday, March 9th 2026 <br /> Taj Exotica Resort, Goa <br /> 6pm Onwards</>,
       link: "https://maps.app.goo.gl/mxcwCxWhH1TXBC8c9",
     },
 
 
     {
-      title_ceremony: "Walima",
-      image: "/assets/walima.webp",
-      date: "Sunday, September 15th 2026",
-      venue: "The Ashok Hotel",
-      venue_address: <>50-B, Diplomatic Enclave,<br /> Chanakyapuri, New Delhi – 110021</>,
-      time: "8pm Onwards",
+      title_ceremony: "Reception",
+      image: "/assets/reception.webp",
+      venue_address: <>Friday, March 9th 2026 <br /> Taj Exotica Resort, Goa <br /> 6pm Onwards</>,
       link: "https://maps.app.goo.gl/f599YkTSEYKDEK5L7",
     },
 
@@ -160,21 +143,10 @@ export default function Home() {
 
       <audio ref={audioRef} src="/assets/background_song_muslim.mp3" loop preload="auto" playsInline />
 
-
       {/* hero section */}
-      <div
-        className="
-    bg-[url('/assets/respo.webp')]
-    md:bg-[url('/assets/background.webp')]
-    bg-cover
-    bg-no-repeat
-    bg-top
-    md:bg-center
-    w-full
-    overflow-hidden
-    relative
-  "
-      >
+      <div className=" bg-[url('/assets/respo_bg.webp')] md:bg-[url('/assets/background.webp')] bg-cover bg-no-repeat
+                       bg-top md:bg-center w-full overflow-hidden relative">
+
         {/* Decorative Lamps - Natural Flow Pattern */}
         {/* Left-to-Right Lamps - Less crowded */}
         <FloatingLamp className="absolute top-10 left-8 w-40 h-40 transform rotate-12 opacity-90" />
@@ -238,206 +210,124 @@ export default function Home() {
 
 
         {/* <FallingLamps /> */}
-        <div className="lg:pt-124 md:pt-44 md:pb-0 relative z-10 pt-12">
+        <div className="lg:pt-40 md:pt-30 md:pb-0 relative z-10 pt-6">
+          <h2 className="text-[#AF630E] text-center leading-tight text-3xl md:text-5xl lg:text-[64px] pb-120
+                          md:pb-400 lg:pb-470 3xl:pb-500 flex flex-col items-center gap-y-0 lg:gap-y-5">
 
-          <h2 className="text-[#FFF097]  text-center leading-tight
-     text-[30px] md:text-5xl lg:text-[100px] lg:pb-470 md:pb-450 pb-120
-  flex flex-col items-center gap-y-2 lg:gap-y-5">
-
-            <span className="jacques-francois">FARDEEN</span>
+            <span className="jacques-francois">VEERENDRA</span>
 
             <span className="jacques-francois text-xl md:text-3xl lg:text-5xl tracking-widest font-cormorant">WEDS</span>
 
-            <span className="jacques-francois">ZARIN</span>
+            <span className="jacques-francois">MEERA</span>
 
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-50 pt-0">
+            <p className="jacques-francois text-base md:text-2xl lg:text-3xl text-[#FFF097] text-center">ॐ श्री गणेशाय नम</p>
+            <Image
+              src="/assets/ganesha.webp"
+              alt="idol"  width={100} height={100}
+              className="w-23 h-30 md:w-35 md:h-46 lg:w-41 lg:h-53  object-cover"/>
 
-
-            <p className="jacques-francois text-base md:text-2xl lg:text-3xl text-[#FFF5B9] text-center">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْم</p>
-            <p className="jacques-francois text-base md:text-2xl lg:text-3xl text-[#FFF5B9] text-center">Bismillahir Rahmanir Raheem</p>
-
-
-
-            <h2 className="text-[#FFF5B9] lg:text-[30px] md:text-2xl text-base jacques-francois ">
-              With the heavenly blessings of
-              <br /> Mrs. Fatima Begum & Mr. Zafar Ahmed
+            <h2 className="text-[#FFF097] text-sm md:text-xl lg:text-[26px] md:pt-8 jacques-francois">
+              With the heavenly blessings of <br />
+              Shri Rajesh Gaur & Shrimati Sunita Gaur
             </h2>
 
-            <hr className="lg:w-24 w-16 border-[#FFF5B9] my-4" />
-            <h2 className="text-[#FFF5B9] lg:text-[30px] md:text-2xl text-base jacques-francois">
-              Mrs. Shabana Khan & Mr. Rehan Malik
+            <hr className="lg:w-24 w-16 border-[#FFF097] my-2 md:my-4" />
+            <h2 className="text-[#FFF097] text-sm md:text-xl lg:text-[26px] jacques-francois">
+              Shri Amit Chauhan & Shrimati Vaishali Chauhan
             </h2>
-
           </div>
 
-
           <div className="mt-8 text-center">
-            <h2 className="text-[#FFF5B9] jacques-francois 
-            text-3xl sm:text-5xl lg:text-[60px] leading-tight lg:tracking-wide tracking-wider">
+            <h2 className="text-[#FFF097] jacques-francois text-3xl md:text-5xl lg:text-[64px] leading-tight lg:tracking-wide tracking-wider">
               INVITE
             </h2>
 
-            <p className="text-[#FFF5B9] jacques-francois lg:text-[30px] md:text-2xl text-base mt-6">
+            <p className="text-[#FFF097] jacques-francois text-sm md:text-xl lg:text-[26px] mt-6">
               You to join us in the wedding celebrations of
             </p>
 
-            <h2 className="text-[#FFF097] jacques-francois text-center mt-14
-            md:text-5xl text-[54px] lg:text-[80px] leading-tight font-medium">
-              FARDEEN
+            <h2 className="text-[#FFF097] jacques-francois text-center mt-14 text-3xl md:text-5xl lg:text-[64px] leading-tight font-medium">
+              VEERENDRA
             </h2>
 
-
-            <p className="text-[#FFF5B9] jacques-francois lg:text-[30px] md:text-2xl mt-2 text-[16px]">
-              (S/o Mrs. Nida Khan & Mr. Arshad Hussain)
-              <br /> (GrandSon of Abdul Samad)
-            </p>
-
-
-
-
-            <h2 className="text-[#FFF097] jacques-francois text-center mt-4
-            text-[54px] sm:text-7xl lg:text-[80px] leading-tight font-medium">
-              <span className="text-[#FFF097] jacques-francois text-center lg:mt-10 mt-4 
-            md:text-5xl text-[50px] lg:text-[80px] leading-tight">&</span>   <br />
-              ZARIN
+            <h2 className="text-[#FFF097] jacques-francois text-center mt-0 text-3xl md:text-5xl lg:text-[64px] leading-tight font-medium">
+              <span className="text-[#FFF097] jacques-francois text-center lg:mt-10 mt-0 text-xl md:text-3xl lg:text-5xl leading-tight">&
+              </span>   <br />
+              MEERA
             </h2>
 
-            <p className="text-[#FFF5B9] jacques-francois lg:text-[30px] md:text-2xl text-[16px] mt-2">
-              (D/o Mrs. Akram Sheikh & Fatima Sheikh)
+            <p className="text-[#FFF097] jacques-francois text-sm md:text-xl lg:text-3xl mt-8 md:mt-14">
+              Daughter of <br /> Shri Mahesh Rajput & Shrimati Asha Rajput
             </p>
 
-            <p className="text-[#FFF5B9] jacques-francois lg:text-3xl md:text-2xl text-[24px] mt-8">
+            <p className="text-[#FFF097] jacques-francois text-sm md:text-xl lg:text-3xl mt-8">
               On the following events
             </p>
           </div>
 
           <div className="flex justify-center mt-20 lg:mt-40">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-24 gap-16 ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 lg:gap-28 3xl:gap-56">
               {events.map((event, i) => (
                 <div key={i} className="flex flex-col items-center text-center">
                   <img
                     src={event.image}
-                    alt={event.venue}
-                    className="lg:w-80 w-75 sm:w-76 h-auto"
-                  />
+                    className="lg:w-80 w-75 sm:w-76 h-auto"/>
 
-                  <h2 className="text-[#FFF5B9] jacques-francois lg:text-[45px] md:text-2xl text-3xl mt-4">
+                  <h2 className="text-[#FFF097] jacques-francois lg:text-[45px] md:text-2xl text-3xl mt-4">
                     {event.title_ceremony}
                   </h2>
 
-
-
-                  <p className="text-[#FFF5B9] jacques-francois text-[14px] sm:text-base mt-2">
-                    <span className="text-base md:text-base lg:text-[22px]">{event.date}</span>  <br />
-                    <span className="text-[18px] md:text-base lg:text-[24px] uppercase"> {event.venue}</span> <br />
-                    <span className="text-[14px] md:text-base lg:text-[20px]">{event.venue_address}</span> <br />
-                    <span className="text-base md:text-base lg:text-[22px]">  {event.time} </span>
+                  <p className="text-[#FFF097] jacques-francois text-[14px] sm:text-base mt-2">
+                    <span className="text-sm md:text-base lg:text-[20px]">{event.venue_address}</span> <br />
                   </p>
 
                   <a
                     href={event.link}
-                    className="text-[#FFF5B9] underline md:text-sm text-[18px] mt-2 jacques-francois"
-                    target="_blank"
-                  >
+                    className="text-[#FFF097] underline md:text-sm text-[18px] mt-2 jacques-francois"
+                    target="_blank">
                     See the route
                   </a>
-
 
                 </div>
               ))}
             </div>
           </div>
 
-        
 
-
-          <div className="hidden md:block  md:flex items-center justify-between pt-30 lg:pt-150">
-
-            <img
-              src="/assets/couple_b.png"
-              alt="couple"
-              className="w-60 h-138 md:w-151 md:h-190 lg:w-286 lg:h-315 3xl:w-288 3xl:h-365 object-cover"
-            />
+          <div className="flex items-center pt-30 lg:pt-50 3xl:pt-90">
+            <Image
+              src="/assets/couple_one.webp"
+              alt="couple" width={900} height={1200}
+              className="w-60 h-80 md:w-131 md:h-190 lg:w-219 lg:h-294 3xl:w-270 3xl:h-346 object-cover"/>
 
             {/* Center Text */}
-            <div className="flex flex-col justify-center items-center text-center md:mb-80 lg:mb-130">
-              <p className="font-Cormorant-upright text-2xl md:text-xl lg:text-4xl text-[#E1EF1E]">
+            <div className="flex flex-col justify-center items-center text-center md:mb-0 lg:mb-0">
+              <p className="font-Cormorant-upright text-2xl md:text-2xl lg:text-[38px] text-[#FFF097]">
                 MEET THE
               </p>
 
-              <h2 className="lg:text-[130px] text-5xl text-center text-[#7CE670] lg:pt-12 font-cormorant-upright lg:leading-18 md:leading-6 leading-6 pt-6">
-                <span className="text-[#EAD670] font-cormorant-upright">Bride</span> <br /> & <br /> <span className="text-[#EAD670] font-cormorant-upright ">Groom</span>
+              <h2 className="text-5xl lg:text-[130px] text-center text-[#FF8170] lg:pt-12 font-cormorant-upright lg:leading-18 md:leading-6 leading-6 pt-6">
+                <span className="text-[#F2AD15] font-cormorant-upright">Bride</span> <br /> & <br /> <span className="text-[#F2AD15]">Groom</span>
               </h2>
-
-            </div>
-            <div className="self-end">
-              <img
-                src="/assets/lights.png"
-                alt="lights"
-                className="w-20 h-58 md:w-50 md:h-100 lg:w-60 lg:h-162 3xl:h-190 object-cover"
-              />
-            </div>
-          </div>
-
-          {/* Mobile responsive */}
-          <div className="block md:hidden pt-30 lg:pt-150">
-            {/* Center Text */}
-            <div className="flex flex-col justify-center items-center text-center lg:mb-130">
-              <p className="font-Cormorant-upright text-2xl md:text-xl lg:text-4xl text-[#E1EF1E]">
-                MEET THE
-              </p>
-
-              <h2 className="lg:text-[130px] text-5xl text-center text-[#7CE670] lg:pt-12 font-cormorant-upright lg:leading-18 md:leading-6 leading-6 pt-6">
-                <span className="text-[#EAD670] font-cormorant-upright">Bride</span> <br /> & <br /> <span className="text-[#EAD670] font-cormorant-upright ">Groom</span>
-              </h2>
-
-            </div>
-
-            
-            
-            <div className="flex items-center justify-between pt-20">
-              <img
-              src="/assets/couple_b.png"
-              alt="couple"
-              className="w-90 h-108 lg:w-286 lg:h-365 object-cover"
-            />
-            <div className="self-end">
-              <img
-                src="/assets/lights.png"
-                alt="lights"
-                className="w-20 h-58 lg:w-60 lg:h-185 object-cover"
-              />
-            </div>
             </div>
           </div>
           
-
         </div>
       </div>
-
-
-
 
       <CoupleMessage />
 
-      <div className="hidden  md:block bg-[url('/assets/sunset_img.webp')] bg-cover bg-no-repeat ">
-        <div className="lg:h-326 md:h-176 3xl:h-409 flex flex-col items-center">
-          <img src="/assets/logo.webp" alt="logo" width={250} height={300} className=" top-80 lg:w-70 lg:h-20 lg:mt-110 md:mt-50" />
+      <div className="bg-[url('/assets/respo_three.webp')] md:bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat">
+        <div className="h-250 md:h-179 lg:h-333 3xl:h-419 flex flex-col items-center relative">
+          <img src="/assets/logo.webp" alt="logo" width={250} height={300} className="absolute top-28 w-42 h-48 md:top-41 md:w-28 md:h-35 lg:top-78 lg:w-48 lg:h-55 3xl:top-101" />
         </div>
       </div>
-
-
-      {/* mobile visible section */}
-      <div className="md:hidden bg-[url('/assets/respo_sunset.webp')] bg-cover bg-no-repeat">
-        <div className="h-200 flex flex-col items-center">
-          <img src="/assets/logo.webp" alt="logo" width={250} height={300} className=" top-80 lg:w-70 lg:h-20 mt-24" />
-        </div>
-      </div>
-
 
       <MarriageCountdown />
+
       <div className="fixed top-5 left-5 z-50">
         <a href="https://invitearc.com/">
           <button className="flex items-center gap-3 border-white border-2 bg-white/0 backdrop-blur text-white px-6 py-3 rounded-full shadow-lg cursor-pointer">
@@ -445,7 +335,6 @@ export default function Home() {
             <span className="text-[16px] font-semibold">
               Exit Preview
             </span>
-
           </button>
         </a>
       </div>

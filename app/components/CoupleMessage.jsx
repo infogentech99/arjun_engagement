@@ -8,34 +8,39 @@ export default function CoupleMessage() {
 
     const testimonial = [
         {
-            img: '/assets/1.jpg',
+            img: '/assets/1.webp',
         },
 
         {
-            img: '/assets/2.jpg',
+            img: '/assets/2.webp',
         },
 
          {
-            img: '/assets/7.jpg',
+            img: '/assets/3.webp',
         },
 
         {
-            img: '/assets/4.jpg',
+            img: '/assets/4.webp',
         },
 
          {
-            img: '/assets/5.jpg',
+            img: '/assets/5.webp',
         },  
     ]
 
     return (
 
-        <div className="bg-[url('/assets/bg_img_second.webp')] bg-cover bg-no-repeat">
-             <div className="3xl:h-983 lg:h-982 md:h-607 h-754">
-                <h1 className="lg:text-[50px] md:text-3xl text-xl text-center text-[#FFF5B9] lg:pt-40 pt-12 jacques-francois">A message from the couple</h1>
-                <h2 className="lg:text-[30px] text-lg  text-center text-[#FFF5B9] lg:px-100 px-6 md:px-30 lg:mt-36 mt-12 jacques-francois lg:leading-8 md:leading-8 leading-7">
-                    From different traditions to one beautiful journey, join us as we celebrate love, laughter, and forever.
-                    This moment wouldn’t be the same without the people we love most. Thank you for your love, blessings, and for making our journey even more special, we’re so excited to celebrate together!</h2>
+        <div className="bg-[url('/assets/respo_two.webp')] md:bg-[url('/assets/bg_two.webp')] bg-cover bg-no-repeat">
+             <div className="h-672 md:h-585 lg:h-893 3xl:h-1074">
+                <h1 className="text-base md:text-2xl lg:text-[36px] text-center text-[#FFF097] lg:pt-40 pt-20 jacques-francois">A message from the couple</h1>
+                <h2 className="text-xs md:text-xl lg:text-[32px] text-center text-[#FFF097] px-3 md:px-17 lg:px-53 3xl:px-103 mt-12 lg:mt-36 jacques-francois leading-7 md:leading-tight">
+                    We are both so delighted that you are able to join us in celebrating what 
+                    we hope will be one of the happiest days of our lives. The affection shown 
+                    to us by so many people since our roka has been incredibly moving, and has 
+                    touched us both deeply. We would like to take this opportunity to thank 
+                    everyone most sincerely for their kindness.We are looking forward to see 
+                    you at the wedding.
+                </h2>
                  <div className="md:mt-32 mt-26 lg:mt-44 flex justify-center items-center">
                     <Swiper
                         modules={[Autoplay, Pagination]}
@@ -65,33 +70,33 @@ export default function CoupleMessage() {
                                 <img
                                     src={item.img}
                                     alt=""
-                                    className="w-full lg:h-195 h-120 object-cover rounded-[60px]"
+                                    className="w-full h-120 md:h-90 lg:h-135 3xl:h-195 object-cover rounded-[60px]"
                                 />
                             </SwiperSlide>
                         ))}
                     </Swiper>
                 </div> 
 
-                  <h1 className=" lg:text-[100px] text-[60px] md:text-6xl text-center text-[#FFF097] md:pt-29 lg:pt-32 pt-12 jacques-francois">
+          <h1 className="text-5xl md:text-6xl lg:text-[122px] text-center text-[#FFF097] pt-16 md:pt-20 lg:pt-32 leading-tight jacques-francois">
             Things to <br /> know
           </h1>
-          <h2 className="lg:text-[30px] text-[18px] text-center text-[#FFF5B9] md:pt-6 lg:pt-6 lg:px-60 px-6 md:px-30 lg:mt-4 mt-2 jacques-francois">
+          <h2 className="text-xs md:text-xl lg:text-[32px] text-center text-[#FFF097] px-4 md:px-20 lg:px-56 3xl:px-107 pt-10 md:pt-6 lg:pt-6 3xl:pt-16 mt-2 lg:mt-4 lg:leading-tight jacques-francois">
             To help you feel at ease and enjoy every moment of the celebrations,
             we’ve gathered a few thoughtful details we’d love for you to know
             before the big day.
           </h2>
-          <div className="flex justify-center mt-20 pb-24">
-            <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 lg:gap-24 gap-10 md:gap-14">
+          <div className="flex justify-center mt-20 pb-24 md:pb-0">
+            <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-10 md:gap-14 lg:gap-50 3xl:gap-60">
               <div className="flex flex-col items-center justify-center text-center">
                 <img
                   src="/assets/weather.webp"
                   alt="weather"
                   className="lg:h-26 lg:w-28 h-26 w-32 "
                 />
-                <h2 className="md:text-3xl lg:text-[32px] text-[50px] text-[#FFF5B9] mt-2 jacques-francois">
+                <h2 className="text-[50px] md:text-3xl lg:text-[42px] text-[#FFF097] mt-2 jacques-francois">
                   Weather
                 </h2>
-                <p className="lg:text-[18px] text-[14px] text-[#FFF5B9] mt-1 jacques-francois md:leading-5">
+                <p className="text-[14px] lg:text-[15px] text-[#FFF097] mt-1 jacques-francois md:leading-5">
                   It will be mostly cloudy with <br />
                   temperature reaching up <br />
                   to 22 degrees at the venue
@@ -99,14 +104,14 @@ export default function CoupleMessage() {
               </div>
               <div className="flex flex-col items-center justify-center text-center">
                 <img
-                  src="/assets/staff2.webp"
+                  src="/assets/staff.webp"
                   alt="drive"
                   className="md:h-26 lg:h-27 lg:w-21 h-34 w-29"
                 />
-                <h2 className="md:text-3xl lg:text-2xl lg:text-[32px] text-[50px] text-[#FFF5B9] mt-2 jacques-francois">
+                <h2 className="text-[50px] md:text-3xl lg:text-[42px] text-[#FFF097] mt-2 jacques-francois">
                   Staff
                 </h2>
-                <p className="lg:text-[18px] text-[14px] md:leading-5 text-[#FFF5B9] mt-1 jacques-francois">
+                <p className="text-[14px] lg:text-[15px] md:leading-5 text-[#FFF097] mt-1 jacques-francois">
                   We recommend the nearby <br />
                   lodge called VEGA near the <br />
                   venue for the staff members
@@ -118,10 +123,10 @@ export default function CoupleMessage() {
                   alt="car"
                   className="lg:h-27 lg:w-30 h-26 w-32 "
                 />
-                <h2 className="md:text-3xl lg:text-[32px] text-[50px] text-[#FFF5B9] mt-2 jacques-francois">
+                <h2 className="text-[50px] md:text-3xl lg:text-[42px] text-[#FFF097] mt-2 jacques-francois">
                   Parking
                 </h2>
-                <p className="lg:text-[18px] text-[14px] md:leading-5 text-[#FFF5B9] mt-1 jacques-francois">
+                <p className="text-[14px] lg:text-[15px] md:leading-5 text-[#FFF097] mt-1 jacques-francois">
                   Valet parking for all our <br />
                   guests will be available <br />
                   at the venue
@@ -132,50 +137,25 @@ export default function CoupleMessage() {
 
              
 
-            <div className="hidden md:block md:flex items-center md:mt-30 lg:mt-60 gap-0">
+            <div className="flex flex-col items-center md:mt-2 lg:mt-0 gap-10 3xl:gap-12">
+              <div className="">
+                <h2 className="font-cormorant-upright text-2xl md:text-5xl lg:text-[64px] text-[#FFF097] pt-24 md:pt-77 lg:pt-102 3xl:pt-150 jacques-francois-upright md:leading-8 lg:leading-12 leading-normal">
+                  Looking forward to seeing you
+                </h2>
+              <div className="flex flex-col-1 md:gap-0 gap-0 lg:gap-0 justify-center items-center md:not-first:mt-4">
+                <a href="#" target="_blank">
+                  <img src="/assets/whatsapp.webp" alt="icon" className="h-6 w-6 md:w-12 md:h-12 lg:w-[42px] lg:h-[42px] 3xl:w-20 3xl:h-20" />
+                </a>
+                <h2 className="font-cormorant-upright text-xs md:text-base lg:text-[22px] text-[#FFF097] jacques-francois-upright">
+                  Click the Link to RSVP
+                </h2>
+              </div>
+              </div>
                 <img
-              src="/assets/couple_img2.webp"
-              alt="couple"
-              className="w-70 h-90 md:w-140 md:h-158 lg:w-275 lg:h-309 3xl:w-300 3xl:h-336 object-cover "
-            />
-            <div className=" lg:ml-0">
-            <h2 className="font-cormorant-upright text-xs md:text-3xl lg:text-5xl 3xl:text-6xl text-[#FFF5B9] lg:pt-63 jacques-francois-upright pt-4 md:leading-8 lg:leading-12 leading-3">
-              Looking forward to <br /> seeing you
-            </h2>
-            <div className="flex flex-col-1 md:gap-0 gap-0 lg:gap-0 justify-center items-center md:not-first:mt-4">
-              <a href="#" target="_blank">
-                <img src="/assets/whatsapp.webp" alt="" className="h-6 w-6 md:w-12 md:h-12 lg:h-15 lg:w-15 3xl:w-20 3xl:h-20" />
-              </a>
-              <h2 className="font-cormorant-upright md:text-base lg:text-xl 3xl:text-2xl text-[6px] text-[#FFF5B9]  jacques-francois-upright pr-4 md:pr-10 lg:pr-40">
-                Click the Link to RSVP
-              </h2>
+                src="/assets/couple_second.webp"
+                alt="couple"
+                className="w-108 h-54 md:w-205 md:h-103 lg:w-381 lg:h-192 3xl:w-480 3xl:h-243 object-cover"/>
             </div>
-            </div>
-          </div>
-
-          {/* Mobile responsive */}
-          <div className="block md:hidden lg:mt-60 gap-0">
-            <div className="text-center leading-22">
-            <h2 className="font-cormorant-upright text-3xl md:text-4xl lg:text-6xl text-[#FFF5B9] lg:pt-63 jacques-francois-upright pt-4 md:leading-12 leading-7">
-              Looking forward to <br /> seeing you
-            </h2>
-            <div className="flex flex-col-1 md:gap-4 gap-0 lg:gap-0 justify-center items-center md:not-first:mt-4">
-              <a href="#" target="_blank">
-                <img src="/assets/whatsapp.webp" alt="" className="md:w-12 md:h-12 lg:h-15 lg:w-15 h-6 w-6" />
-              </a>
-              <h2 className="font-cormorant-upright md:text-2xl lg:text-2xl text-lg text-[#FFF5B9]  jacques-francois-upright pr-8 lg:pr-45">
-                Click the Link to RSVP
-              </h2>
-            </div>
-            </div>
-              <img
-              src="/assets/couple_img2.webp"
-              alt="couple"
-              className="w-100 h-120 md:w-100 md:h-128 lg:w-285 lg:h-320 object-cover mt-[69px]"
-            />
-            
-          </div>
-
 
             </div>
         </div>
