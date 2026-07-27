@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useEffect, useState, useRef, useMemo } from "react";
 import RoseHeroTemp from "@/app/components/RoseHeroTemp";
 import CoupleMessage from "@/app/components/CoupleMessage";
+import TheCouple from "@/app/components/TheCouple";
 // import MarriageCountdown from "@/app/components/MarriageCountdown";
 
 const FloatingLamp = ({ className, style, reverse = false }: { className: string; style?: React.CSSProperties; reverse?: boolean }) => {
@@ -41,7 +42,7 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 };
 
 export default function Home() {
-  
+
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [started, setStarted] = useState(false);
   const [playing, setPlaying] = useState(false);
@@ -86,37 +87,91 @@ export default function Home() {
     };
   }, [started]);
 
-  const TARGET_DATE = new Date("2026-10-12").getTime();
-      const [timeLeft, setTimeLeft] = useState({
+  //   const TARGET_DATE = new Date("2026-08-30").getTime();
+  //       const [timeLeft, setTimeLeft] = useState({
+  //           days: 0,
+  //           hours: 0,
+  //           minutes: 0,
+  //           seconds:0,
+  //       });
+
+  //       useEffect(() => {
+  //           const updateCountdown = () => {
+  //               const now = new Date().getTime();
+  //               const diff = TARGET_DATE - now;
+  //               if (diff <= 0) {
+  //                   setTimeLeft({ days: 30, hours: 10, minutes: 30, seconds:30});
+  //                   return;
+  //               }
+  //               const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  //               const hours = Math.floor(
+  //                   (diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+  //               );
+  //               const minutes = Math.floor(
+  //                   (diff % (1000 * 60 * 60)) / (1000 * 60)
+  //               );
+
+  //              const seconds = Math.floor(
+  //     (diff % (1000 * 60)) / 1000
+  // );
+
+
+  //               setTimeLeft({ days, hours, minutes, seconds, });
+  //           };
+
+  //           updateCountdown(); // first run
+  //           const interval = setInterval(updateCountdown, 60000); // every minute
+
+  //           return () => clearInterval(interval);
+  //       }, []);
+
+
+
+  const TARGET_DATE = new Date("2026-08-30").getTime();
+
+  const [timeLeft, setTimeLeft] = useState({
+    days: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0,
+  });
+
+  useEffect(() => {
+    const updateCountdown = () => {
+      const now = Date.now();
+      const diff = TARGET_DATE - now;
+
+      if (diff <= 0) {
+        setTimeLeft({
           days: 0,
           hours: 0,
           minutes: 0,
-      });
-  
-      useEffect(() => {
-          const updateCountdown = () => {
-              const now = new Date().getTime();
-              const diff = TARGET_DATE - now;
-              if (diff <= 0) {
-                  setTimeLeft({ days: 30, hours: 10, minutes: 30, });
-                  return;
-              }
-              const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-              const hours = Math.floor(
-                  (diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-              );
-              const minutes = Math.floor(
-                  (diff % (1000 * 60 * 60)) / (1000 * 60)
-              );
-  
-              setTimeLeft({ days, hours, minutes, });
-          };
-  
-          updateCountdown(); // first run
-          const interval = setInterval(updateCountdown, 60000); // every minute
-  
-          return () => clearInterval(interval);
-      }, []);
+          seconds: 0,
+        });
+        return;
+      }
+
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor(
+        (diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      const minutes = Math.floor(
+        (diff % (1000 * 60 * 60)) / (1000 * 60)
+      );
+      const seconds = Math.floor(
+        (diff % (1000 * 60)) / 1000
+      );
+
+      setTimeLeft({ days, hours, minutes, seconds });
+    };
+
+    updateCountdown();
+
+    // Update every second
+    const interval = setInterval(updateCountdown, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <>
@@ -132,30 +187,37 @@ export default function Home() {
       <audio ref={audioRef} src="/assets/background_song.mp3" loop preload="auto" playsInline />
 
       {/* hero section */}
-      <div className=" bg-[url('/assets/background.webp')] md:bg-[url('/assets/background.webp')] 3xl:bg-[url('/assets/background.webp')]
+      <div className=" bg-[url('/assets/bg_mobile.png')] md:bg-[url('/assets/background.webp')] 3xl:bg-[url('/assets/background.webp')]
                        bg-cover bg-top bg-no-repeat min-h-screen w-full relative overflow-hidden">
-        
+
         <RoseHeroTemp />
 
-        <div className="pt-27 md:pt-53 lg:pt-70 3xl:pt-200 relative z-10">
-          <h2 className="text-[#69301B] text-center leading-tight text-xl md:text-5xl lg:text-[52px] pb-0
-                          md:pb-350 lg:pb-105 3xl:pb-550 flex flex-col items-center">
+        <div className="pt-22 md:pt-42 lg:pt-70 3xl:pt-90 relative z-10">
+          <h2 className="text-[#69301B] text-center leading-tight text-[12px] md:text-2xl lg:text-[52px] pb-0
+                          md:pb-40 lg:pb-110 3xl:pb-115 flex flex-col items-center">
             <span className="parisienne-regular">Varun Prasad</span>
             <span className="jacques-francois text-xs md:text-2xl lg:text-[28px] tracking-widest">WEDS</span>
             <span className="parisienne-regular">Yuvashri</span>
           </h2>
 
-          <div className="flex flex-col justify-center items-center mt-50 lg:mt-20 pb-60 lg:pb-60">
-          <h2 className="eb-garamond font-medium text-xs md:text-xs lg:text-base text-center text-[#C26F02]">COUNTDOWN TO OUR BIG DAY</h2>
-          <hr className="w-42 md:w-66 lg:w-64 border lg:border-2 border-[#C26F02] my-0 md:my-4 lg:my-4" />
-          <h2 className="eb-garamond font-normal flex text-xs md:text-5xl lg:text-xl text-center text-[#C26F02] gap-6"> 
-            <span> {timeLeft.days} <br /> DAYS </span>   
-            <span> {timeLeft.hours} <br /> HOURS </span> 
-            <span> {timeLeft.minutes} <br /> MINUTES </span> 
-          </h2>
+          <div className="flex flex-col justify-center items-center mt-42 md:mt-38 lg:mt-23 pb-40 lg:pb-60 3xl:mt-52">
+            <h2 className="eb-garamond font-medium text-[6px] md:text-xs lg:text-base 3xl:text-xl text-center text-[#C26F02]">COUNTDOWN TO OUR BIG DAY</h2>
+            <hr className="w-20 md:w-66 lg:w-64 border:0.5  lg:border border-[#C26F02] my-0 md:my-1 lg:my-2 3xl:my-3" />
+            <h2 className="eb-garamond font-normal flex text-xs md:text-3xl lg:text-xl text-center text-[#C26F02] gap-3 md:gap-6 lg:gap-12 3xl:gap-14">
+
+              <div><span className="font-bold 3xl:text-4xl md:text-2xl text-[7px]"> {timeLeft.days}</span>
+                <p className="3xl:text-[16px] lg:text:[14px] text-[6px]">DAYS </p> </div>
+
+              <div><span className="font-bold 3xl:text-4xl md:text-2xl text-[7px]"> {timeLeft.hours}</span>
+                <p className="3xl:text-[16px] lg:text:[14px] text-[6px]">HOURS </p> </div>
+              <div><span className="font-bold 3xl:text-4xl md:text-2xl text-[7px]">{timeLeft.minutes}</span>
+                <p className="3xl:text-[16px] lg:text:[14px] text-[6px]">MINUTES </p> </div>
+              <div><span className="font-bold 3xl:text-4xl md:text-2xl text-[7px]">{timeLeft.seconds}</span>
+                <p className="3xl:text-[16px] lg:text:[14px] text-[6px]">SECOND </p> </div>
+            </h2>
           </div>
 
-          <div className="flex flex-col items-center text-center gap-6 mt-0 lg:pt-50 pt-0">
+          <div className="flex flex-col items-center text-center gap-6 mt-0 lg:pt-0 pt-0">
             <h2 className="eb-garamond font-medium text-[#C26F02] text-xs md:text-xl lg:text-[26px] md:pt-8">
               With the heavenly blessings of <br /> Mrs. Jeeva Ravi and Mr. Ravi Srinivasan.
             </h2>
@@ -184,15 +246,27 @@ export default function Home() {
                 & </span>   <br /> VARUN PRASAD MBA
             </h2>
           </div>
-          
+
         </div>
       </div>
 
       <CoupleMessage />
+      <TheCouple />
 
-      <div className="bg-[url('/assets/respo_three.webp')] md:bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat">
-        <div className="h-253 md:h-179 lg:h-330 3xl:h-421 flex flex-col items-center relative">
-          <img src="/assets/Couple_Logo.webp" alt="logo" width={250} height={300} className="absolute top-50 w-30 h-30 md:top-41 md:w-41 md:h-40 lg:top-84 lg:w-72 lg:h-58 3xl:top-118" />
+      <div className="bg-[url('/assets/respo_three.webp')] md:bg-[url('/assets/footer_bg.png')] bg-cover bg-no-repeat">
+        <div className="h-253 md:h-300 lg:h-550 3xl:h-680 flex flex-col items-center relative">
+
+          <h2 className="parisienne-regular text-2xl md:text-4xl lg:text-[60px] text-center text-[#C26F02] pt-4 md:pt-11 lg:pt-42 3xl:pt-55">The Journey to Forever Begins</h2>
+          <p className="eb-garamond font-medium text-xs md:text-[16px] lg:text-[24px] text-[#C26F02] mt-4 text-center px-6 md:px-25 lg:px-65 3xl:px-100">
+            A beautiful match made through our families, nurtured with love and understanding. As the countdown begins, we look forward to celebrating the start of our new chapter with your blessings.
+          </p>
+
+          <div className="flex flex-col-1 gap-4 justify-center items-center mt-2 md:mt-8 lg:mt-15">
+            <a href="https://www.instagram.com/theinvitearc/" target="_blank">
+              <img src="/assets/invi_insta.png" alt="icon" className="w-5 h-5 md:w-10 md:h-10" /></a>
+          </div>
+          <p className="eb-garamond font-medium text-xs md:text-xl lg:text-[32px] text-[#C26F02] mt-2 md:mt-5 text-center ">                         © <a href="https://invitearc.com/" target="_blank">InviteArc</a> 2026 </p>
+
         </div>
       </div>
 
