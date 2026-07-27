@@ -198,7 +198,7 @@ export default function TheCouple() {
                   <p className="text-[8px] lg:text-[16px] md:text-[14px]  font-[Cormorant_Garamond] text-[#E27500] font-semibold">&</p>
                 <p className="text-[8px] lg:text-[16px] md:text-[14px]  font-[Cormorant_Garamond] text-[#E27500] font-semibold">9156055441</p> */}
                 <a
-                  href="https://wa.me/917704724319"
+                  href="https://wa.me/9176642399"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[8px] md:text-[14px] lg:text-[16px] font-[Cormorant_Garamond] text-[#E27500] font-semibold hover:underline"
@@ -211,7 +211,7 @@ export default function TheCouple() {
                 </p>
 
                 <a
-                  href="https://wa.me/919156055441"
+                  href="https://wa.me/9150688441"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[8px] md:text-[14px] lg:text-[16px] font-[Cormorant_Garamond] text-[#E27500] font-semibold hover:underline"
