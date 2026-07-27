@@ -203,7 +203,7 @@ export default function TheCouple() {
                   rel="noopener noreferrer"
                   className="text-[8px] md:text-[14px] lg:text-[16px] font-[Cormorant_Garamond] text-[#E27500] font-semibold hover:underline"
                 >
-                  7704724319
+                  9176642399
                 </a>
 
                 <p className="text-[8px] md:text-[14px] lg:text-[16px] font-[Cormorant_Garamond] text-[#E27500] font-semibold">
@@ -216,7 +216,7 @@ export default function TheCouple() {
                   rel="noopener noreferrer"
                   className="text-[8px] md:text-[14px] lg:text-[16px] font-[Cormorant_Garamond] text-[#E27500] font-semibold hover:underline"
                 >
-                  9156055441
+                  9150688441
                 </a>
               </div>
             </div>
