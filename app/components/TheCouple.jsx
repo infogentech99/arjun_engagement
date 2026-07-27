@@ -52,9 +52,7 @@ export default function TheCouple() {
               <img
                 src="/assets/thecouple3.png"
                 alt=""
-                className="absolute top-8 right-5 lg:top-12 lg:right-18 md:right-12
-      w-35 md:w-30 lg:w-80 
-      rotate-1 shadow-lg z-20"
+                className="absolute top-8 right-5 lg:top-12 lg:right-18 md:right-12 w-35 md:w-30 lg:w-80 rotate-1 shadow-lg z-20"
               />
 
               {/* Left */}
@@ -165,11 +163,11 @@ export default function TheCouple() {
                     {item.desc}
                   </p>
 
-                  <img
+                  {/* <img
                     src="/assets/card-ornament.png"
                     alt=""
                     className="mt-auto w-24 lg:w-32"
-                  />
+                  /> */}
                 </div>
               </div>
             ))}
