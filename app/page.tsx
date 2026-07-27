@@ -200,7 +200,7 @@ export default function Home() {
             <span className="parisienne-regular">Yuvashri</span>
           </h2>
 
-          <div className="flex flex-col justify-center items-center mt-41 md:mt-38 lg:mt-23 pb-20 lg:pb-60 3xl:mt-52">
+          <div className="flex flex-col justify-center items-center mt-41 md:mt-38 lg:mt-20 pb-20 lg:pb-60 3xl:mt-52">
             <h2 className="eb-garamond font-medium text-[12px] md:text-xs lg:text-base 3xl:text-xl text-center text-[#C26F02]">COUNTDOWN TO OUR BIG DAY</h2>
             <hr className="w-20 md:w-66 lg:w-64 border:0.5  lg:border border-[#C26F02] my-0 md:my-1 lg:my-2 3xl:my-3" />
             <h2 className="eb-garamond font-normal flex text-xs md:text-3xl lg:text-xl text-center text-[#C26F02] gap-3 md:gap-6 lg:gap-12 3xl:gap-14 mt-6 md:mt-0">
