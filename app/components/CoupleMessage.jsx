@@ -34,19 +34,34 @@ export default function CoupleMessage() {
           </div>
         </div>
       </div>
-      <div className="bg-[url('/assets/event_desktopbg2.png')] bg-cover bg-no-repeat">
+      {/* <div className="bg-[url('/assets/event_desktopbg2.png')] bg-cover bg-no-repeat"> */}
+      <div className="relative bg-[url('/assets/event_desktopbg2.png')] bg-cover bg-no-repeat">
+
+  {/* Left Flower */}
+  <img
+    src="/assets/eventleft_flower.png"
+    alt=""
+     className="absolute left-0 bottom-0 w-32 md:w-40 lg:w-70 3xl:w-80 z-0 pointer-events-none"
+  />
+
+  {/* Right Flower */}
+  <img
+    src="/assets/eventright_flower.png"
+    alt=""
+    className="absolute right-0 bottom-0 w-32 md:w-40 lg:w-70 3xl:w-80 z-0 pointer-events-none"
+  />
         <div className="h-180 md:h-180 lg:h-250 flex-row justify-center items-center">
           <h1 className="parisienne-regular font-medium text-4xl md:text-5xl lg:text-7xl text-center text-[#C26F02] lg:pt-40 pt-20">
             Our Events
           </h1>
 
           <div className="flex justify-center items-center mt-26">
-            <div className="relative w-90 h-90 md:w-100 md:h-100 lg:w-140 lg:h-120 3xl:w-140 3xl:h-120 -rotate-3">
+            <div className="relative w-85 h-85 md:w-100 md:h-100 lg:w-140 lg:h-120 3xl:w-140 3xl:h-120 -rotate-3">
               {/* Background Card */}
               <img
                 src="/assets/card1.png"
                 alt="Wedding Card"
-                className="w-90 h-90 md:w-100 md:h-100 lg:w-140 lg:h-120 3xl:w-140 3xl:h-120"
+                className="w-85 h-85 md:w-100 md:h-100 lg:w-140 lg:h-120 3xl:w-140 3xl:h-120"
               />
 
               {/* Card Content */}

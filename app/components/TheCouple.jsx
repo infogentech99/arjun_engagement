@@ -75,10 +75,10 @@ export default function TheCouple() {
 
               {/* Flower */}
               <img
-                src="/assets/flower-outline.png"
+                src="/assets/couple_flower.png"
                 alt=""
-                className="absolute bottom-0 right-0
-      w-[80px] lg:w-[140px]
+                className="absolute bottom-0 lg:-right-25 -right-20 
+      w-[180px] lg:w-[300px]
       opacity-70"
               />
             </div>
@@ -97,18 +97,18 @@ export default function TheCouple() {
             {cards.map((item, index) => (
               <div
                 key={index}
-                className="relative w-[220px] h-[300px] lg:w-[270px] lg:h-[370px]"
+                className="relative w-55 h-75 lg:w-67.5 lg:h-92.5"
               >
-                {/* Card Border */}
+               
                 <img
                   src="/assets/frame.png"
                   alt=""
                   className="absolute inset-0 w-full h-full object-contain"
                 />
 
-                {/* Content */}
+               
                 <div className="absolute inset-0 flex flex-col items-center px-8 py-8">
-                  {/* Icon Circle */}
+
                   <div className="w-16 h-16 lg:w-20 lg:h-20 rounded-full border border-[#C57A08] flex items-center justify-center">
                     <img
                       src={item.icon}
@@ -117,17 +117,17 @@ export default function TheCouple() {
                     />
                   </div>
 
-                  {/* Title */}
+                  
                   <h3 className="mt-6 text-[#C57A08] text-2xl lg:text-3xl font-[Cormorant_Garamond]">
                     {item.title}
                   </h3>
 
-                  {/* Description */}
-                  <p className="mt-4 text-center text-[#C57A08] text-xs lg:text-sm leading-relaxed max-w-[170px]">
+                  
+                  <p className="mt-4 text-center text-[#C57A08] text-xs lg:text-sm leading-relaxed max-w-42.5">
                     {item.desc}
                   </p>
 
-                  {/* Bottom Ornament */}
+                 
                   <img
                     src="/assets/card-ornament.png"
                     alt=""
@@ -139,20 +139,20 @@ export default function TheCouple() {
           </div>
 
           <div className="flex justify-center mt-20">
-            <div className="relative w-[380px] h-[380px] lg:w-[570px] lg:h-[690px] md:w-[530px] md:h-[530px]">
+            <div className="relative w-95 h-95 lg:w-142.5 lg:h-172.5 md:w-132.5 md:h-132.5">
               {/* Couple Illustration */}
               <img
                 src="/assets/rsvp_image.png"
                 alt="Couple"
-                className="w-[380px] h-[380px] md:w-[530px] md:h-[530px] lg:w-[570px] lg:h-[690px]"
+                className="w-95 h-95 md:w-132.5 md:h-132.5 lg:w-142.5 lg:h-172.5"
               />
 
               {/* Heart Content */}
-              <div className="absolute top-[26%] md:top-[24%] left-1/2 -translate-x-1/2 md:w-[200px] w-[150px] lg:w-[320px] text-center text-[#8B4302]">
+              <div className="absolute top-[26%] md:top-[24%] left-1/2 -translate-x-1/2 md:w-50 w-37.5 lg:w-[320px] text-center text-[#8B4302]">
                 <p className="text-[14px] md:text-xl lg:text-3xl leading-tight font-semibold font-[Cormorant_Garamond]">
                   Awaiting the Pleasure of Your Company
                 </p>
-                <button className="mt-2 px-3 py-1 text-[9px] lg:text-xs rounded-full  hover:text-white transition md:text-[16px] 3xl:text-xl font-[Cormorant_Garamond]">
+                <button className="mt-2 px-3 py-1 text-[9px] lg:text-xs rounded-full md:text-[16px] 3xl:text-xl font-[Cormorant_Garamond]">
                   Click the link to RSVP
                 </button>
                 <p className="mt-2 text-[8px] md:text-[16px] tracking-[2px] font-semibold text-xl font-[Cormorant_Garamond]">

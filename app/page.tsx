@@ -200,20 +200,20 @@ export default function Home() {
             <span className="parisienne-regular">Yuvashri</span>
           </h2>
 
-          <div className="flex flex-col justify-center items-center mt-36 md:mt-38 lg:mt-23 pb-40 lg:pb-60 3xl:mt-52">
-            <h2 className="eb-garamond font-medium text-[6px] md:text-xs lg:text-base 3xl:text-xl text-center text-[#C26F02]">COUNTDOWN TO OUR BIG DAY</h2>
+          <div className="flex flex-col justify-center items-center mt-42 md:mt-38 lg:mt-23 pb-40 lg:pb-60 3xl:mt-52">
+            <h2 className="eb-garamond font-medium text-[12px] md:text-xs lg:text-base 3xl:text-xl text-center text-[#C26F02]">COUNTDOWN TO OUR BIG DAY</h2>
             <hr className="w-20 md:w-66 lg:w-64 border:0.5  lg:border border-[#C26F02] my-0 md:my-1 lg:my-2 3xl:my-3" />
-            <h2 className="eb-garamond font-normal flex text-xs md:text-3xl lg:text-xl text-center text-[#C26F02] gap-3 md:gap-6 lg:gap-12 3xl:gap-14">
+            <h2 className="eb-garamond font-normal flex text-xs md:text-3xl lg:text-xl text-center text-[#C26F02] gap-3 md:gap-6 lg:gap-12 3xl:gap-14 mt-6 md:mt-0">
 
-              <div><span className="font-bold 3xl:text-4xl md:text-2xl text-[7px]"> {timeLeft.days}</span>
-                <p className="3xl:text-[16px] lg:text:[14px] text-[6px]">DAYS </p> </div>
+              <div><span className="font-bold 3xl:text-4xl md:text-2xl text-[18px]"> {timeLeft.days}</span>
+                <p className="3xl:text-[16px] lg:text:[14px] text-[13px]">DAYS </p> </div>
 
-              <div><span className="font-bold 3xl:text-4xl md:text-2xl text-[7px]"> {timeLeft.hours}</span>
-                <p className="3xl:text-[16px] lg:text:[14px] text-[6px]">HOURS </p> </div>
-              <div><span className="font-bold 3xl:text-4xl md:text-2xl text-[7px]">{timeLeft.minutes}</span>
-                <p className="3xl:text-[16px] lg:text:[14px] text-[6px]">MINUTES </p> </div>
-              <div><span className="font-bold 3xl:text-4xl md:text-2xl text-[7px]">{timeLeft.seconds}</span>
-                <p className="3xl:text-[16px] lg:text:[14px] text-[6px]">SECOND </p> </div>
+              <div><span className="font-bold 3xl:text-4xl md:text-2xl text-[18px]"> {timeLeft.hours}</span>
+                <p className="3xl:text-[16px] lg:text:[14px] text-[13px]">HOURS </p> </div>
+              <div><span className="font-bold 3xl:text-4xl md:text-2xl text-[18px]">{timeLeft.minutes}</span>
+                <p className="3xl:text-[16px] lg:text:[14px] text-[13px]">MINUTES </p> </div>
+              <div><span className="font-bold 3xl:text-4xl md:text-2xl text-[18px]">{timeLeft.seconds}</span>
+                <p className="3xl:text-[16px] lg:text:[14px] text-[13px]">SECOND </p> </div>
             </h2>
           </div>
 
