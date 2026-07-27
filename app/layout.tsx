@@ -15,12 +15,12 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://aura-demo-flame.vercel.app/"),
+  metadataBase: new URL("https://https://varunwedsyuvashri.vercel.app/"),
 
   openGraph: {
     title: "Varun Prasad & Yuvashri",
     description: "Join as they begin their forever. 30th August 2026",
-    url: "https://aura-demo-flame.vercel.app/",
+    url: "https://https://varunwedsyuvashri.vercel.app/",
     siteName: "InviteArc",
     images: [
       {
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
 
  other: {
-    "og:image:secure_url": "https://aura-demo-flame.vercel.app/og.jpg",
+    "og:image:secure_url": "https://https://varunwedsyuvashri.vercel.app/og.jpg",
     "og:image:type": "image/jpg",
   },
 
