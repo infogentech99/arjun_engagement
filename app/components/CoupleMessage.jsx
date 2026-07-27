@@ -6,10 +6,30 @@ export default function CoupleMessage() {
   return (
     <>
       <div className="bg-[url('/assets/story_mobilebg2.png')] md:bg-[url('/assets/story_desktopbg.png')] bg-cover bg-no-repeat">
-        <div className="h-230 md:h-150 lg:h-280 3xl:h-300">
-          <h1 className="parisienne-regular font-medium text-4xl md:text-5xl lg:text-7xl text-center text-[#C26F02] lg:pt-40 pt-20">
+        <div className="h-230 md:h-150 lg:h-280 3xl:h-350">
+          {/* <div className="text-center">
+<h1 className="parisienne-regular font-medium text-4xl md:text-5xl lg:text-7xl text-center text-[#C26F02] lg:pt-40 pt-20">
             Our Story
+           
           </h1>
+          <img
+              src="/assets/underline.png"
+              alt="underline"
+              className=""
+            />
+
+          </div> */}
+          <div className="text-center">
+  <h1 className="parisienne-regular font-medium text-4xl md:text-5xl lg:text-7xl text-[#C26F02] lg:pt-40 pt-20">
+    Our Story
+  </h1>
+
+  <img
+    src="/assets/underline.png"
+    alt="underline"
+    className="mx-auto mt-2 w-[200px] md:w-32 md:w-[350px] md:mt-7"
+  />
+</div>
           <h2 className="eb-garamond font-normal text-xs md:text-sm lg:text-[22px] 3xl:text-[26px] text-center text-[#C26F02] px-3 md:px-17 lg:px-51 3xl:px-103 mt-18 lg:mt-24 leading-5 md:leading-tight">
             Ours is a beautiful arranged marriage that brought two families and
             two hearts together. What began with a simple introduction soon
@@ -24,12 +44,12 @@ export default function CoupleMessage() {
             <img
               src="/assets/couple_varun1.png"
               alt="weather"
-              className="w-50 h-50 md:w-50 md:h-50 lg:w-80 lg:h-80 3xl:w-100 3xl:h-100 -rotate-5 z-10"
+              className="w-50 h-50 md:w-50 md:h-50 lg:w-100 lg:h-100 -rotate-5 z-10"
             />
             <img
               src="/assets/couple_varun2.png"
               alt="weather"
-              className="w-50 h-50 md:w-50 md:h-50 lg:w-80 lg:h-80 3xl:w-100 3xl:h-100 -rotate-5 -ml-10 z-0"
+              className="w-50 h-50 md:w-50 md:h-50 lg:w-100 lg:h-100  -rotate-5 -ml-10 z-0"
             />
           </div>
         </div>
@@ -40,19 +60,32 @@ export default function CoupleMessage() {
         <img
           src="/assets/eventleft_flower.png"
           alt=""
-          className="absolute left-0 bottom-0 w-32 md:w-40 lg:w-70 3xl:w-80 z-0 pointer-events-none"
+          className="absolute left-0 bottom-0 w-32 md:w-40 lg:w-90 3xl:w-100 z-0 pointer-events-none"
         />
 
         {/* Right Flower */}
         <img
           src="/assets/eventright_flower.png"
           alt=""
-          className="absolute right-0 bottom-0 w-32 md:w-40 lg:w-70 3xl:w-80 z-0 pointer-events-none"
+          className="absolute right-0 bottom-0 w-32 md:w-40 lg:w-90 3xl:w-100 z-0 pointer-events-none"
         />
         <div className="h-180 md:h-180 lg:h-250 flex-row justify-center items-center">
-          <h1 className="parisienne-regular font-medium text-4xl md:text-5xl lg:text-7xl text-center text-[#C26F02] lg:pt-40 pt-20">
+          {/* <h1 className="parisienne-regular font-medium text-4xl md:text-5xl lg:text-7xl text-center text-[#C26F02] lg:pt-40 pt-20">
             Our Events
-          </h1>
+          </h1> */}
+
+
+          <div className="text-center">
+  <h1 className="parisienne-regular font-medium text-4xl md:text-5xl lg:text-7xl text-[#C26F02] lg:pt-40 pt-20">
+    Our Events
+  </h1>
+
+  <img
+    src="/assets/underline.png"
+    alt="underline"
+    className="mx-auto mt-2 w-[200px] md:w-32 md:w-[350px] md:mt-7"
+  />
+</div>
 
           <div className="flex justify-center items-center mt-26">
             <div className="relative w-85 h-85 md:w-100 md:h-100 lg:w-140 lg:h-120 3xl:w-140 3xl:h-120 -rotate-3">
