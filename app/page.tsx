@@ -252,7 +252,7 @@ export default function Home() {
       <CoupleMessage />
       <TheCouple />
 
-      <div className="bg-[url('/assets/footer_bg.png')] bg-cover bg-no-repeat">
+      <div className="bg-[url('/assets/footer_bg2.png')] bg-cover bg-no-repeat">
         <div className="h-170 md:h-300 lg:h-550 3xl:h-680 flex flex-col items-center relative">
 
           <h2 className="parisienne-regular text-2xl md:text-4xl lg:text-[60px] text-center text-[#C26F02] pt-4 md:pt-11 lg:pt-42 3xl:pt-55">The Journey to Forever Begins</h2>
