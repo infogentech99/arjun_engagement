@@ -188,7 +188,7 @@ export default function Home() {
 
       {/* hero section */}
       <div className=" bg-[url('/assets/bg_mobile.png')] md:bg-[url('/assets/background.webp')] 3xl:bg-[url('/assets/background.webp')]
-                       bg-cover bg-top bg-no-repeat min-h-screen w-full relative overflow-hidden">
+                       bg-contain md:bg-cover bg-top bg-no-repeat min-h-screen w-full relative overflow-hidden">
 
         <RoseHeroTemp />
 
