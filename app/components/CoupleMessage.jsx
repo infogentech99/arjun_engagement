@@ -1,114 +1,147 @@
+"use client";
+import { useEffect, useState } from "react";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
 
 export default function CoupleMessage() {
+    // const TARGET_DATE = new Date("2026-10-12").getTime();
+    // const [timeLeft, setTimeLeft] = useState({
+    //     days: 0,
+    //     hours: 0,
+    //     minutes: 0,
+    // });
+
+    // useEffect(() => {
+    //     const updateCountdown = () => {
+    //         const now = new Date().getTime();
+    //         const diff = TARGET_DATE - now;
+    //         if (diff <= 0) {
+    //             setTimeLeft({ days: 30, hours: 10, minutes: 30 });
+    //             return;
+    //         }
+    //         const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    //         const hours = Math.floor(
+    //             (diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    //         );
+    //         const minutes = Math.floor(
+    //             (diff % (1000 * 60 * 60)) / (1000 * 60)
+    //         );
+
+    //         setTimeLeft({ days, hours, minutes });
+    //     };
+
+    //     updateCountdown(); // first run
+    //     const interval = setInterval(updateCountdown, 60000); // every minute
+
+    //     return () => clearInterval(interval);
+    // }, []);
+
 
     return (
 
         <div className="bg-[url('/assets/respo_bg_two.webp')] md:bg-[url('/assets/bg_two.webp')] bg-cover bg-no-repeat">
-             <div className="h-689 md:h-585 lg:h-1083 3xl:h-1367">
-                <h1 className="text-base md:text-2xl lg:text-[36px] text-center text-[#15528A] lg:pt-40 pt-20 jacques-francois">A message from the couple</h1>
-                <h2 className="text-xs md:text-xl lg:text-[32px] text-center text-[#15528A] px-3 md:px-17 lg:px-51 3xl:px-103 mt-12 lg:mt-36 jacques-francois leading-5 md:leading-tight">
-                    We are both so delighted that you are able to join us in celebrating what 
-                    we hope will be one of the happiest days of our lives. The affection shown 
-                    to us by so many people since our roka has been incredibly moving, and has 
-                    touched us both deeply. We would like to take this opportunity to thank 
-                    everyone most sincerely for their kindness.We are looking forward to see 
-                    you at the wedding.
+             <div className="h-689 md:h-685 lg:h-1050 3xl:h-1367">
+                <h1 className="eb-garamond font-medium text-base md:text-2xl lg:text-[38px] text-center text-[#FFD74B] lg:pt-40 pt-20">Our Story</h1>
+                <h2 className="parisienne-regular font-normal text-xs md:text-sm lg:text-[26px] text-center text-[#FFD74B] px-3 md:px-17 lg:px-51 3xl:px-103 mt-12 lg:mt-24 leading-5 md:leading-tight">
+                    Ours is a beautiful arranged marriage that brought two families and two hearts together.
+                    What began with a simple introduction soon blossomed into a bond of trust, respect, and understanding.
+                    With every conversation, we discovered that we were meant for each other. Surrounded by the love and blessings
+                    of our families, we are excited to begin this new chapter together. We warmly invite you to celebrate our special
+                    day and bless us on our journey ahead.
                 </h2>
-                 <div className="relative flex flex-col items-center mt-12 md:mt-12 lg:mt-20 3xl:mt-30">
-                  <h2 className=" text-[#15528A] text-left text-xl md:text-4xl lg:text-[68px] 3xl:text-[78px] pl-64 md:pl-114 lg:pl-210 3xl:pl-280 md:mt-2 lg:mt-3 3xl:mt-5 flex flex-col justify-end ">
-                    <span className="jacques-francois">HARPREET</span>
-                    <span className="lavishly-yours-regular opacity-50 text-[#6CB9FF] text-5xl md:text-7xl lg:text-[150px] tracking-widest -mt-6 pl-5 md:-mt-9 md:pl-10 lg:-mt-19 lg:pl-18">&</span>
-                    <span className="jacques-francois -mt-4 md:-mt-6 lg:-mt-10">RITIKA</span>
-                  </h2>
+                
+                <div>
 
-                    <img src="/assets/one.webp" alt="couple" className="absolute right-40 w-35 h-28 md:right-78 md:w-60 md:h-46 
-                              lg:right-143 lg:w-106 lg:h-83 3xl:right-167 3xl:w-146 3xl:h-103 z-20" />
-                    <img src="/assets/two.webp" alt="couple_one" className="absolute top-15 left-6 w-32 h-55 md:left-21 
-                               md:top-24 md:w-54 md:h-90 lg:left-50 lg:top-45 lg:w-97 lg:h-166 3xl:left-68 3xl:top-60 3xl:w-117 3xl:h-186 z-10" />
-                    
-                    <img src="/assets/three.webp" alt="flowers" className="absolute right-42 top-20 w-27 h-37 md:right-82 md:top-34 md:w-45 
-                               md:h-59 lg:right-150 lg:top-61 lg:w-82 lg:h-110 3xl:right-180 3xl:top-75 3xl:w-102 3xl:h-130 z-40" />
-                    <img src="/assets/four.webp" alt="couple" className="absolute right-9 top-18 w-39 h-59 md:right-22 md:top-30 md:w-69 
-                               md:h-98 lg:right-49 lg:top-55 lg:w-118 lg:h-176 3xl:right-61 3xl:top-67 3xl:w-138 3xl:h-196 z-30" />
-                    <img src="/assets/five.webp" alt="couple" className="absolute top-60 right-38 w-40 h-30 md:right-76 md:top-97 md:w-70 
-                               md:h-50 lg:right-142 lg:top-181 lg:w-120 lg:h-91 3xl:top-212 3xl:right-170 3xl:w-160 3xl:h-111 z-20" />
-                 </div>
+                </div>
 
-          <h1 className="text-5xl md:text-6xl lg:text-[122px] text-center text-[#15528A] pt-86 md:pt-130 lg:pt-250 3xl:pt-320 leading-tight jacques-francois">
-            Things to <br /> know
+              <div className=" h-100 lg:h-180 flex justify-center gap-0 items-center md:mt-40 lg:mt-80 3xl:mt-210 md:pr-5 lg:pr-0 3xl:pr-30">
+                <div className="bg-[url('/assets/RSVP.webp')] w-65 h-65 md:w-100 md:h-100 lg:w-150 lg:h-150 bg-contain bg-no-repeat">
+                <h2 className="eb-garamond font-medium text-center text-xl md:text-3xl lg:text-[36px] text-[#8B4302] pt-15 md:pt-25 lg:pt-40 3xl:pt-150 leading-5 md:leading-8 lg:leading-12">
+                  Awaiting the <br /> Pleasure of <br/> Your Company
+                </h2>
+                <div className="flex flex-col justify-center items-center mt-2 md:not-first:mt-4">
+                <h2 className="eb-garamond font-semibold text-xs md:text-sm lg:text-[20px] text-[#8B4302]">
+                  Click the link to RSVP
+                </h2>
+                <h2 className=" text-[#8B4302]">VARUN & YUVASHRI</h2>
+                <h2>9176642399 <br /> & <br /> 9150688441</h2>
+                </div>
+              </div>
+            </div>
+
+          <h1 className="parisienne-regular font-normal text-5xl md:text-6xl lg:text-[100px] text-center text-[#FFD74B] pt-10 md:pt-35 lg:pt-65 3xl:pt-320 leading-tight">
+            A Guide For <br /> Guests
           </h1>
-          <h2 className="text-xs md:text-xl lg:text-[32px] text-center text-[#15528A] px-4 md:px-20 lg:px-56 3xl:px-107 pt-10 md:pt-6 lg:pt-6 3xl:pt-16 mt-2 lg:mt-4 lg:leading-tight jacques-francois">
-            To help you feel at ease and enjoy every moment of the celebrations,
-            we’ve gathered a few thoughtful details we’d love for you to know
-            before the big day.
-          </h2>
-          <div className="flex justify-center mt-20 pb-24 md:pb-0">
-            <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-10 md:gap-14 lg:gap-50 3xl:gap-60">
-              <div className="flex flex-col items-center justify-center text-center">
+          
+          <div className="flex justify-center mt-10 md:mt-20 pb-10 md:pb-0">
+            <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 gap-10 md:gap-20 lg:gap-0 3xl:gap-60">
+              <div className=" flex flex-col items-center justify-center text-center">
                 <img
                   src="/assets/weather.webp"
                   alt="weather"
-                  className="w-31 h-25 md:w-24 md:h-22 lg:w-28 lg:h-26"
+                  className="w-31 h-25 md:w-24 md:h-22 lg:w-33 lg:h-26"
                 />
-                <h2 className="text-[40px] md:text-3xl lg:text-[42px] text-[#15528A] mt-1 jacques-francois">
+                <h2 className="eb-garamond font-normal text-[40px] md:text-3xl lg:text-[42px] text-[#FFD74B] mt-1">
                   Weather
                 </h2>
-                <p className="text-[14px] lg:text-[15px] text-[#15528A] mt-1 jacques-francois md:leading-5">
-                  It will be mostly cloudy with <br />
-                  temperature reaching up <br />
-                  to 22 degrees at the venue
+                <p className="eb-garamond font-normal text-sm lg:text-xl text-[#FFD74B] mt-1 md:leading-5">
+                  A delighful day awaits <br /> with pleasant weather <br /> and mild temperatures.
                 </p>
               </div>
-              <div className="flex flex-col items-center justify-center text-center">
+              <hr className="hidden lg:block lg:rotate-90 lg:w-65 lg:border-2 border-[#FFD74B] lg:my-28" />
+              <div className=" flex flex-col items-center justify-center text-center">
                 <img
                   src="/assets/staff.webp"
                   alt="drive"
                   className="w-28 h-35 md:w-17 md:h-23 lg:w-21 lg:h-27"
                 />
-                <h2 className="text-[40px] md:text-3xl lg:text-[42px] text-[#15528A] mt-1 jacques-francois">
+                <h2 className="eb-garamond font-normal text-[40px] md:text-3xl lg:text-[42px] text-[#FFD74B] mt-1">
                   Staff
                 </h2>
-                <p className="text-[14px] lg:text-[15px] md:leading-5 text-[#15528A] mt-1 jacques-francois">
-                  We recommend the nearby <br />
-                  lodge called VEGA near the <br />
-                  venue for the staff members
+                <p className="eb-garamond font-normal text-sm lg:text-xl md:leading-5 text-[#FFD74B] mt-1">
+                  For those traveling from afar, <br /> Royal Orchid Suites offers a <br /> comfortable stay nearby.
                 </p>
               </div>
-              <div className="flex flex-col items-center justify-center text-center">
+              <hr className="hidden lg:block lg:rotate-90 lg:w-65 lg:border-2 border-[#FFD74B] lg:my-28" />
+              <div className=" flex flex-col items-center justify-center text-center">
                 <img
                   src="/assets/parking.webp"
                   alt="car"
                   className="w-31 h-25 md:w-26 md:h-23 lg:w-30 lg:h-27"
                 />
-                <h2 className="text-[40px] md:text-3xl lg:text-[42px] text-[#15528A] mt-1 jacques-francois">
+                <h2 className="eb-garamond font-normal text-[40px] md:text-3xl lg:text-[42px] text-[#FFD74B] mt-1">
                   Parking
                 </h2>
-                <p className="text-[14px] lg:text-[15px] md:leading-5 text-[#15528A] mt-1 jacques-francois">
-                  Valet parking for all our <br />
-                  guests will be available <br />
-                  at the venue
+                <p className="eb-garamond font-normal text-sm lg:text-xl md:leading-5 text-[#FFD74B] mt-1">
+                  Guests can enjoy hassle <br /> free parking facilities <br /> available at the venue.
                 </p>
               </div>
             </div>
           </div>
 
-             
+          <h2 className="eb-garamond font-medium text-xl md:text-xl lg:text-[28px] text-center text-[#FFD74B] px-4 md:px-20 lg:px-56 3xl:px-107 pt-0 md:pt-22 lg:pt-40 3xl:pt-46 mt-2 lg:mt-4 lg:leading-tight">
+            Your presence means the world to us. To make your experience <br className="hidden md:block" />
+            effortless and enjoyable, we've gathered a few useful details below.
+          </h2>             
 
-            <div className="flex justify-center md:justify-end md:mt-2 lg:mt-135 3xl:mt-210 md:pr-5 lg:pr-10 3xl:pr-30">
-                <div className="">
-                <h2 className="font-cormorant-upright font-semibold text-center text-3xl md:text-4xl lg:text-[64px] text-[#15528A] pt-15 md:pt-90 lg:pt-102 3xl:pt-150 leading-normal md:leading-8 lg:leading-12">
-                  Looking forward to <br className="hidden md:block" /> seeing you
-                </h2>
-              <div className="flex flex-col-1 md:gap-0 gap-0 lg:gap-0 justify-center items-center md:not-first:mt-4">
-                <a href="#" target="_blank">
-                  <img src="/assets/whatsapp.webp" alt="icon" className="h-8 w-8 md:w-8 md:h-8 lg:w-[42px] lg:h-[42px] 3xl:w-20 3xl:h-20" />
-                </a>
-                <h2 className="font-cormorant font-normal text-xs md:text-sm lg:text-[22px] text-[#15528A]">
-                  Click the Link to RSVP
-                </h2>
+            {/* <div className="flex flex-col h-50 md:h-89 lg:h-200 3xl:h-210 md:gap-3 lg:gap-8 3xl:gap-8 items-center text-center">
+              <h2 className="parisienne-regular font-normal text-2xl md:text-4xl lg:text-6xl text-center text-[#FFD74B] pt-40 md:pt-60 lg:pt-75 3xl:pt-55">The Journey Begins</h2>
+              <p className="eb-garamond font-medium text-xs md:text-xl lg:text-[28px] text-[#FFD74B] mt-4 text-center px-6 md:px-25 lg:px-65 3xl:px-120">
+                Surrounded by family and friends, we can't wait to celebrate <br /> this beautiful moment with you.
+              </p> 
+              <hr className="w-42 md:w-66 lg:w-94 border lg:border-2 border-[#FFD74B] my-2 md:my-4 lg:my-4" />
+              <h2 className="eb-garamond font-normal text-2xl md:text-5xl lg:text-[80px] text-center text-[#FFD74B]"> {timeLeft.days}D - {timeLeft.hours}H - {timeLeft.minutes}M</h2>
+                    
+              <div className="flex flex-col-1 gap-4 justify-center items-center mt-2 md:mt-0">
+                  <a href="https://www.instagram.com/theinvitearc/" target="_blank"><img src="/assets/instagram.webp" alt="icon" className="w-5 h-5 md:w-10 md:h-10 lg:w-12 lg:h-12"/></a>
+                       
               </div>
-              </div>
-            </div>
+              <p className="eb-garamond font-normal text-xs md:text-sm lg:text-base text-[#FFD74B] mt-2 md:mt-0 text-center">
+                  © <a href="https://invitearc.com/" target="_blank">InviteArc</a> 2026 </p>
+            </div> */}
 
             </div>
         </div>
