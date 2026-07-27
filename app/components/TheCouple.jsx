@@ -29,20 +29,20 @@ export default function TheCouple() {
           </h1>
 
           <div className="flex justify-center items-center mt-22">
-            <div className="relative w-[340px] h-[300px] lg:w-[650px] lg:h-[520px]">
+            <div className="relative w-85 h-75 lg:w-162.5 lg:h-130">
               {/* Love Text */}
               <img
                 src="/assets/love.png"
                 alt="Love"
-                className="absolute top-0 left-0 w-[170px] lg:w-[330px] -rotate-6 z-30"
+                className="absolute top-0 left-0 w-42.5 lg:w-82.5 -rotate-6 z-30"
               />
 
               {/* Top Right */}
               <img
                 src="/assets/thecouple3.png"
                 alt=""
-                className="absolute top-8 right-2 lg:top-12 lg:right-18
-      w-[120px] lg:w-[250px] 
+                className="absolute top-8 right-5 lg:top-12 lg:right-18 md:right-12
+      w-35 md:w-30 lg:w-62.5 
       rotate-1 border-4 border-white shadow-lg z-20"
               />
 
@@ -51,7 +51,7 @@ export default function TheCouple() {
                 src="/assets/thecouple1.png"
                 alt=""
                 className="absolute top-18 left-6 lg:top-40 lg:left-10
-      w-[140px] lg:w-[250px]
+      w-35 lg:w-62.5
       -rotate-2 border-4 border-white shadow-lg z-10"
               />
 
@@ -60,7 +60,7 @@ export default function TheCouple() {
                 src="/assets/thecouple2.png"
                 alt=""
                 className="absolute bottom-5 left-10 lg:bottom-8 lg:left-16
-      w-[160px] lg:w-[270px]
+      w-40 lg:w-67.5
       rotate-1 border-4 border-white shadow-lg z-30"
               />
 
@@ -69,7 +69,7 @@ export default function TheCouple() {
                 src="/assets/thecouple4.png"
                 alt=""
                 className="absolute bottom-0 right-12 lg:bottom-2 lg:right-26
-      w-[140px] lg:w-[240px]
+      w-35 lg:w-60
       rotate-4 border-4 border-white shadow-lg z-20"
               />
 
@@ -158,10 +158,31 @@ export default function TheCouple() {
                 <p className="mt-2 text-[8px] md:text-[16px] tracking-[2px] font-semibold text-xl font-[Cormorant_Garamond]">
                   VARUN & YUVASHRI
                 </p>
-                <div className="w-12 h-px bg-[#E27500] mx-auto my-2"></div>
-                <p className="text-[8px] lg:text-[16px] md:text-[14px] font-[Cormorant_Garamond] text-[#E27500] font-semibold">7704724319</p>
+                <div className="w-12 bg-[#E27500] mx-auto md:my-2 my-0"></div>
+                {/* <p className="text-[8px] lg:text-[16px] md:text-[14px] font-[Cormorant_Garamond] text-[#E27500] font-semibold">7704724319</p>
                   <p className="text-[8px] lg:text-[16px] md:text-[14px]  font-[Cormorant_Garamond] text-[#E27500] font-semibold">&</p>
-                <p className="text-[8px] lg:text-[16px] md:text-[14px]  font-[Cormorant_Garamond] text-[#E27500] font-semibold">9156055441</p>
+                <p className="text-[8px] lg:text-[16px] md:text-[14px]  font-[Cormorant_Garamond] text-[#E27500] font-semibold">9156055441</p> */}
+                  <a
+    href="https://wa.me/917704724319"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-[8px] md:text-[14px] lg:text-[16px] font-[Cormorant_Garamond] text-[#E27500] font-semibold hover:underline"
+  >
+    7704724319
+  </a>
+
+  <p className="text-[8px] md:text-[14px] lg:text-[16px] font-[Cormorant_Garamond] text-[#E27500] font-semibold">
+    &
+  </p>
+
+  <a
+    href="https://wa.me/919156055441"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-[8px] md:text-[14px] lg:text-[16px] font-[Cormorant_Garamond] text-[#E27500] font-semibold hover:underline"
+  >
+    9156055441
+  </a>
               </div>
             </div>
           </div>

@@ -36,20 +36,19 @@ export default function CoupleMessage() {
       </div>
       {/* <div className="bg-[url('/assets/event_desktopbg2.png')] bg-cover bg-no-repeat"> */}
       <div className="relative bg-[url('/assets/event_desktopbg2.png')] bg-cover bg-no-repeat">
+        {/* Left Flower */}
+        <img
+          src="/assets/eventleft_flower.png"
+          alt=""
+          className="absolute left-0 bottom-0 w-32 md:w-40 lg:w-70 3xl:w-80 z-0 pointer-events-none"
+        />
 
-  {/* Left Flower */}
-  <img
-    src="/assets/eventleft_flower.png"
-    alt=""
-     className="absolute left-0 bottom-0 w-32 md:w-40 lg:w-70 3xl:w-80 z-0 pointer-events-none"
-  />
-
-  {/* Right Flower */}
-  <img
-    src="/assets/eventright_flower.png"
-    alt=""
-    className="absolute right-0 bottom-0 w-32 md:w-40 lg:w-70 3xl:w-80 z-0 pointer-events-none"
-  />
+        {/* Right Flower */}
+        <img
+          src="/assets/eventright_flower.png"
+          alt=""
+          className="absolute right-0 bottom-0 w-32 md:w-40 lg:w-70 3xl:w-80 z-0 pointer-events-none"
+        />
         <div className="h-180 md:h-180 lg:h-250 flex-row justify-center items-center">
           <h1 className="parisienne-regular font-medium text-4xl md:text-5xl lg:text-7xl text-center text-[#C26F02] lg:pt-40 pt-20">
             Our Events
@@ -111,7 +110,9 @@ export default function CoupleMessage() {
                 <div className="grid grid-cols-2 items-end mt-5 lg:mt-5">
                   {/* Venue */}
                   <div>
-                    <h3 className="text-xl lg:text-4xl md:text-3xl leading-none">Venue</h3>
+                    <h3 className="text-xl lg:text-4xl md:text-3xl leading-none">
+                      Venue
+                    </h3>
 
                     <p className="mt-2 text-[10px] lg:text-[17px] leading-relaxed">
                       Devaki Wedding Conventions,
@@ -128,9 +129,17 @@ export default function CoupleMessage() {
                       className="w-16 h-16 lg:w-24 lg:h-24 border border-[#C57A08]"
                     />
 
-                    <p className="mt-1 text-[8px] lg:text-sm underline">
+                    {/* <p className="mt-1 text-[8px] lg:text-sm underline">
                       Scan to get directions
-                    </p>
+                    </p> */}
+                    <a
+                      href="https://maps.app.goo.gl/JZH97FXSLugYbhQ97"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-1 text-[8px] lg:text-sm underline text-[#C57A08] transition"
+                    >
+                      Scan to get directions
+                    </a>
                   </div>
                 </div>
               </div>
