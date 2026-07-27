@@ -207,7 +207,6 @@ export default function Home() {
 
               <div><span className="font-bold 3xl:text-4xl md:text-2xl text-[18px]"> {timeLeft.days}</span>
                 <p className="3xl:text-[16px] lg:text:[14px] text-[13px]">DAYS </p> </div>
-
               <div><span className="font-bold 3xl:text-4xl md:text-2xl text-[18px]"> {timeLeft.hours}</span>
                 <p className="3xl:text-[16px] lg:text:[14px] text-[13px]">HOURS </p> </div>
               <div><span className="font-bold 3xl:text-4xl md:text-2xl text-[18px]">{timeLeft.minutes}</span>
