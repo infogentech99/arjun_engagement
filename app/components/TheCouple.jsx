@@ -22,9 +22,9 @@ export default function TheCouple() {
   ];
   return (
     <>
-      <div className="bg-[url('/assets/respo_bg_two.webp')] md:bg-[url('/assets/varuncouple_bg2.png')] bg-cover bg-no-repeat">
-        <div className="h-689 md:h-500 lg:h-700 3xl:h-800">
-          <h1 className="parisienne-regular font-medium text-base md:text-5xl lg:text-7xl text-center text-[#C26F02] lg:pt-40 pt-20">
+      <div className="bg-[url('/assets/varuncouplemobile_bg.png')] md:bg-[url('/assets/varuncouple_bg2.png')] bg-cover bg-no-repeat">
+        <div className="h-609 md:h-500 lg:h-700 3xl:h-800">
+          <h1 className="parisienne-regular font-medium text-4xl md:text-5xl lg:text-7xl text-center text-[#C26F02] lg:pt-40 pt-20">
             The Couple
           </h1>
 
@@ -84,7 +84,7 @@ export default function TheCouple() {
             </div>
           </div>
 
-          <h1 className="parisienne-regular font-medium text-base md:text-5xl lg:text-7xl text-center text-[#C26F02] lg:pt-40 pt-20">
+          <h1 className="parisienne-regular font-medium text-4xl md:text-5xl lg:text-7xl text-center text-[#C26F02] lg:pt-40 pt-20">
             For Our Guests
           </h1>
 
@@ -139,17 +139,17 @@ export default function TheCouple() {
           </div>
 
           <div className="flex justify-center mt-20">
-            <div className="relative w-[260px] h-[280px] lg:w-[570px] lg:h-[690px] md:w-[530px] md:h-[530px]">
+            <div className="relative w-[380px] h-[380px] lg:w-[570px] lg:h-[690px] md:w-[530px] md:h-[530px]">
               {/* Couple Illustration */}
               <img
                 src="/assets/rsvp_image.png"
                 alt="Couple"
-                className="w-[260px] h-[280px] md:w-[530px] md:h-[530px] lg:w-[570px] lg:h-[690px]"
+                className="w-[380px] h-[380px] md:w-[530px] md:h-[530px] lg:w-[570px] lg:h-[690px]"
               />
 
               {/* Heart Content */}
-              <div className="absolute top-[26%] md:top-[24%] left-1/2 -translate-x-1/2 md:w-[200px] w-[120px] lg:w-[320px] text-center text-[#8B4302]">
-                <p className="text-[10px] md:text-xl lg:text-3xl leading-tight font-semibold font-[Cormorant_Garamond]">
+              <div className="absolute top-[26%] md:top-[24%] left-1/2 -translate-x-1/2 md:w-[200px] w-[150px] lg:w-[320px] text-center text-[#8B4302]">
+                <p className="text-[14px] md:text-xl lg:text-3xl leading-tight font-semibold font-[Cormorant_Garamond]">
                   Awaiting the Pleasure of Your Company
                 </p>
                 <button className="mt-2 px-3 py-1 text-[9px] lg:text-xs rounded-full  hover:text-white transition md:text-[16px] 3xl:text-xl font-[Cormorant_Garamond]">

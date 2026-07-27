@@ -5,12 +5,12 @@ import "swiper/css/pagination";
 export default function CoupleMessage() {
   return (
     <>
-      <div className="bg-[url('/assets/respo_bg_two.webp')] md:bg-[url('/assets/story_desktopbg.png')] bg-cover bg-no-repeat">
-        <div className="h-689 md:h-150 lg:h-280 3xl:h-300">
-          <h1 className="parisienne-regular font-medium text-base md:text-5xl lg:text-7xl text-center text-[#C26F02] lg:pt-40 pt-20">
+      <div className="bg-[url('/assets/story_mobilebg2.png')] md:bg-[url('/assets/story_desktopbg.png')] bg-cover bg-no-repeat">
+        <div className="h-230 md:h-150 lg:h-280 3xl:h-300">
+          <h1 className="parisienne-regular font-medium text-4xl md:text-5xl lg:text-7xl text-center text-[#C26F02] lg:pt-40 pt-20">
             Our Story
           </h1>
-          <h2 className="eb-garamond font-normal text-xs md:text-sm lg:text-[22px] 3xl:text-[26px] text-center text-[#C26F02] px-3 md:px-17 lg:px-51 3xl:px-103 mt-12 lg:mt-24 leading-5 md:leading-tight">
+          <h2 className="eb-garamond font-normal text-xs md:text-sm lg:text-[22px] 3xl:text-[26px] text-center text-[#C26F02] px-3 md:px-17 lg:px-51 3xl:px-103 mt-18 lg:mt-24 leading-5 md:leading-tight">
             Ours is a beautiful arranged marriage that brought two families and
             two hearts together. What began with a simple introduction soon
             blossomed into a bond of trust, respect, and understanding. With
@@ -20,33 +20,33 @@ export default function CoupleMessage() {
             celebrate our special day and bless us on our journey ahead.
           </h2>
 
-          <div className="flex justify-center items-center 3xl:mt-22 lg:mt-32 md:mt-22">
+          <div className="flex justify-center items-center 3xl:mt-22 lg:mt-32 md:mt-22 mt-20">
             <img
               src="/assets/couple_varun1.png"
               alt="weather"
-              className="w-40 h-40 md:w-50 md:h-50 lg:w-80 lg:h-80 3xl:w-100 3xl:h-100 -rotate-5 z-10"
+              className="w-50 h-50 md:w-50 md:h-50 lg:w-80 lg:h-80 3xl:w-100 3xl:h-100 -rotate-5 z-10"
             />
             <img
               src="/assets/couple_varun2.png"
               alt="weather"
-              className="w-40 h-40 md:w-50 md:h-50 lg:w-80 lg:h-80 3xl:w-100 3xl:h-100 -rotate-5 -ml-10 z-0"
+              className="w-50 h-50 md:w-50 md:h-50 lg:w-80 lg:h-80 3xl:w-100 3xl:h-100 -rotate-5 -ml-10 z-0"
             />
           </div>
         </div>
       </div>
-      <div className="bg-[url('/assets/respo_bg_two.webp')] md:bg-[url('/assets/event_desktopbg2.png')] bg-cover bg-no-repeat">
-        <div className="h-509 md:h-180 lg:h-250 flex-row justify-center items-center">
-          <h1 className="parisienne-regular font-medium text-base md:text-5xl lg:text-7xl text-center text-[#C26F02] lg:pt-40 pt-20">
+      <div className="bg-[url('/assets/event_desktopbg2.png')] bg-cover bg-no-repeat">
+        <div className="h-180 md:h-180 lg:h-250 flex-row justify-center items-center">
+          <h1 className="parisienne-regular font-medium text-4xl md:text-5xl lg:text-7xl text-center text-[#C26F02] lg:pt-40 pt-20">
             Our Events
           </h1>
 
           <div className="flex justify-center items-center mt-26">
-            <div className="relative w-40 h-40 md:w-100 md:h-100 lg:w-140 lg:h-120 3xl:w-140 3xl:h-120 -rotate-3">
+            <div className="relative w-90 h-90 md:w-100 md:h-100 lg:w-140 lg:h-120 3xl:w-140 3xl:h-120 -rotate-3">
               {/* Background Card */}
               <img
                 src="/assets/card1.png"
                 alt="Wedding Card"
-                className="w-40 h-40 md:w-100 md:h-100 lg:w-140 lg:h-120 3xl:w-140 3xl:h-120"
+                className="w-90 h-90 md:w-100 md:h-100 lg:w-140 lg:h-120 3xl:w-140 3xl:h-120"
               />
 
               {/* Card Content */}

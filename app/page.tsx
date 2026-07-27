@@ -188,7 +188,7 @@ export default function Home() {
 
       {/* hero section */}
       <div className=" bg-[url('/assets/bg_mobile.png')] md:bg-[url('/assets/background.webp')] 3xl:bg-[url('/assets/background.webp')]
-                       bg-contain md:bg-cover bg-top bg-no-repeat min-h-screen w-full relative overflow-hidden">
+                      bg-cover bg-top bg-no-repeat min-h-screen w-full relative overflow-hidden">
 
         <RoseHeroTemp />
 
@@ -253,8 +253,8 @@ export default function Home() {
       <CoupleMessage />
       <TheCouple />
 
-      <div className="bg-[url('/assets/respo_three.webp')] md:bg-[url('/assets/footer_bg.png')] bg-cover bg-no-repeat">
-        <div className="h-253 md:h-300 lg:h-550 3xl:h-680 flex flex-col items-center relative">
+      <div className="bg-[url('/assets/footer_bg.png')] bg-cover bg-no-repeat">
+        <div className="h-170 md:h-300 lg:h-550 3xl:h-680 flex flex-col items-center relative">
 
           <h2 className="parisienne-regular text-2xl md:text-4xl lg:text-[60px] text-center text-[#C26F02] pt-4 md:pt-11 lg:pt-42 3xl:pt-55">The Journey to Forever Begins</h2>
           <p className="eb-garamond font-medium text-xs md:text-[16px] lg:text-[24px] text-[#C26F02] mt-4 text-center px-6 md:px-25 lg:px-65 3xl:px-100">
