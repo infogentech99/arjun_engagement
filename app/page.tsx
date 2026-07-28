@@ -270,10 +270,10 @@ export default function Home() {
       <CoupleMessage />
       <TheCouple />
 
-      <div className="bg-[url('/assets/footer_bg2.png')] bg-cover bg-no-repeat">
-        <div className="h-170 md:h-300 lg:h-550 3xl:h-680 flex flex-col items-center relative">
+      <div className="md:bg-[url('/assets/footer_bg2.png')] bg-[url('/assets/footer_mobilebg.png')] bg-cover bg-no-repeat">
+        <div className="h-185 md:h-300 lg:h-550 3xl:h-680 flex flex-col items-center relative">
 
-          <h2 className="parisienne-regular text-2xl md:text-4xl lg:text-[60px] text-center text-[#C26F02] pt-4 md:pt-11 lg:pt-42 3xl:pt-55">The Journey to Forever Begins</h2>
+          <h2 className="parisienne-regular text-2xl md:text-4xl lg:text-[60px] text-center text-[#C26F02] pt-14 md:pt-11 lg:pt-42 3xl:pt-55">The Journey to Forever Begins</h2>
           <p className="eb-garamond font-medium text-xs md:text-[16px] lg:text-[24px] text-[#C26F02] mt-4 text-center px-6 md:px-25 lg:px-65 3xl:px-100">
             A beautiful match made through our families, nurtured with love and understanding. As the countdown begins, we look forward to celebrating the start of our new chapter with your blessings.
           </p>

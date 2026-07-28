@@ -129,7 +129,7 @@ export default function TheCouple() {
 
 
          
-          <h2 className="eb-garamond font-normal text-xs md:text-sm lg:text-[26px] text-center text-[#C26F02] px-3 md:px-17 lg:px-51 3xl:px-153 mt-12 lg:mt-14 leading-5 md:leading-tight">
+          <h2 className="eb-garamond font-normal text-xs md:text-sm lg:text-[26px] text-center text-[#C26F02] px-3 md:px-17 lg:px-51 3xl:px-153 mt-8 lg:mt-14 leading-5 md:leading-tight">
             We look forward to celebrating this special occasion with you. Your
             presence and blessings mean the world to us!
           </h2>
@@ -147,13 +147,22 @@ export default function TheCouple() {
                 />
 
                 <div className="absolute inset-0 flex flex-col items-center px-8 py-8 lg:pt-18">
-                  <div className="w-16 h-16 lg:w-30 lg:h-30 rounded-full border border-[#C57A08] flex items-center justify-center">
+                  {/* <div className="w-16 h-16 lg:w-30 lg:h-30 rounded-full border-4 border-double border-[#C57A08] flex items-center justify-center">
                     <img
                       src={item.icon}
                       alt=""
                       className="w-8 h-8 lg:w-18 lg:h-18 object-contain"
                     />
-                  </div>
+                  </div> */}
+                  <div className="w-16 h-16 lg:w-30 lg:h-30 rounded-full border-2 border-[#C57A08] p-[3px]">
+  <div className="w-full h-full rounded-full border border-[#C57A08] flex items-center justify-center">
+   <img
+                      src={item.icon}
+                      alt=""
+                      className="w-8 h-8 lg:w-18 lg:h-18 object-contain"
+                    />
+  </div>
+</div>
 
                   <h3 className="mt-6 text-[#C57A08] text-2xl lg:text-3xl font-[Cormorant_Garamond]">
                     {item.title}
@@ -174,12 +183,12 @@ export default function TheCouple() {
           </div>
 
           <div className="flex justify-center mt-20 md:mt-30 lg:mt-40 3xl:mt-50">
-            <div className="relative w-95 h-95 lg:w-142.5 lg:h-172.5 md:w-132.5 md:h-132.5">
+            <div className="relative w-88 h-95 lg:w-142.5 lg:h-172.5 md:w-132.5 md:h-132.5">
               {/* Couple Illustration */}
               <img
                 src="/assets/rsvp_image.png"
                 alt="Couple"
-                className="w-95 h-95 md:w-132.5 md:h-132.5 lg:w-142.5 lg:h-172.5"
+                className="w-88 h-95 md:w-132.5 md:h-132.5 lg:w-142.5 lg:h-172.5"
               />
 
               {/* Heart Content */}

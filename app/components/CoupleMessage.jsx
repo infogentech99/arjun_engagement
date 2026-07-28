@@ -30,7 +30,7 @@ export default function CoupleMessage() {
     className="mx-auto mt-2 w-[200px] md:w-32 md:w-[350px] md:mt-7"
   />
 </div>
-          <h2 className="eb-garamond font-normal text-xs md:text-sm lg:text-[22px] 3xl:text-[26px] text-center text-[#C26F02] px-3 md:px-17 lg:px-51 3xl:px-103 mt-18 lg:mt-24 leading-5 md:leading-tight">
+          <h2 className="eb-garamond font-normal text-xs md:text-sm lg:text-[22px] 3xl:text-[26px] text-center text-[#C26F02] px-3 md:px-17 lg:px-51 3xl:px-103 mt-10 lg:mt-16 leading-5 md:leading-tight">
             Ours is a beautiful arranged marriage that brought two families and
             two hearts together. What began with a simple introduction soon
             blossomed into a bond of trust, respect, and understanding. With
@@ -60,14 +60,14 @@ export default function CoupleMessage() {
         <img
           src="/assets/eventleft_flower.png"
           alt=""
-          className="absolute left-0 bottom-0 w-32 md:w-40 lg:w-100 3xl:w-120 z-0 pointer-events-none"
+          className="absolute left-0 bottom-0 w-40 md:w-40 lg:w-100 3xl:w-120 z-0 pointer-events-none"
         />
 
         {/* Right Flower */}
         <img
           src="/assets/eventright_flower.png"
           alt=""
-          className="absolute right-0 bottom-0 w-32 md:w-40 lg:w-100 3xl:w-120 z-0 pointer-events-none "
+          className="absolute right-0 bottom-0 w-40 md:w-40 lg:w-100 3xl:w-120 z-0 pointer-events-none "
         />
         <div className="h-180 md:h-180 lg:h-250 flex-row justify-center items-center">
           {/* <h1 className="parisienne-regular font-medium text-4xl md:text-5xl lg:text-7xl text-center text-[#C26F02] lg:pt-40 pt-20">
