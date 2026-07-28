@@ -55,7 +55,7 @@ export default function CoupleMessage() {
         </div>
       </div>
       {/* <div className="bg-[url('/assets/event_desktopbg2.png')] bg-cover bg-no-repeat"> */}
-      <div className="relative bg-[url('/assets/event_desktopbg2.png')] bg-cover bg-no-repeat">
+      <div className="relative bg-[url('/assets/event_desktopbg2.png')] bg-cover bg-no-repeat pb-30">
         {/* Left Flower */}
         <img
           src="/assets/eventleft_flower.png"
@@ -88,31 +88,31 @@ export default function CoupleMessage() {
 </div>
 
           <div className="flex justify-center items-center mt-26">
-            <div className="relative w-85 h-85 md:w-100 md:h-100 lg:w-140 lg:h-120 3xl:w-140 3xl:h-120 -rotate-3">
+            <div className="relative w-70 h-92 md:w-100 md:h-100 lg:w-125 lg:h-140 3xl:w-140 3xl:h-120 -rotate-3">
               {/* Background Card */}
               <img
                 src="/assets/card1.png"
                 alt="Wedding Card"
-                className="w-85 h-85 md:w-100 md:h-100 lg:w-140 lg:h-120 3xl:w-140 3xl:h-120"
+                className="w-70 h-92 md:w-100 md:h-100 lg:w-125 lg:h-140 3xl:w-120 3xl:h-140"
               />
 
               {/* Card Content */}
               <div className="absolute inset-0 px-[10%] py-[12%] text-[#C57A08] font-serif">
-                <div className="grid grid-cols-2 gap-6">
+                <div className="grid md:grid-cols-2 3xl:grid-cols-2 lg:grid-cols-[70%_30%]  grid-cols-[70%_30%]  gap-0">
                   {/* Reception */}
                   <div>
                     <img
-                      src="/assets/varun_rece.png"
+                      src="/assets/rece.png"
                       alt=""
-                      className="w-10 h-14 mb-2"
+                      className="w-13 h-13 mb-2"
                     />
 
                     <h3 className="text-xl md:text-3xl lg:text-4xl leading-none">
-                      Reception
+                      Chennai Reception
                     </h3>
 
-                    <p className="mt-2 text-[10px] lg:text-[17px]">
-                      Saturday, 29th August 2026
+                    <p className="mt-2 text-[10px] lg:text-[16px]">
+                      Thursday, 3rd September 2026
                     </p>
 
                     <p className="text-[10px] lg:text-[16px]">
@@ -121,8 +121,8 @@ export default function CoupleMessage() {
                   </div>
 
                   {/* Wedding */}
-                  <div className="text-right">
-                    <h3 className="text-xl  md:text-3xl lg:text-4xl leading-none">
+                  <div className="">
+                    {/* <h3 className="text-xl  md:text-3xl lg:text-4xl leading-none">
                       Wedding
                     </h3>
 
@@ -132,32 +132,32 @@ export default function CoupleMessage() {
 
                     <p className="text-[10px] lg:text-[16px]">
                       7:30 am onwards
-                    </p>
+                    </p> */}
                   </div>
                 </div>
 
                 {/* Divider */}
-                <div className="border-t border-[#C57A08] mt-10 lg:mt-5"></div>
+                <div className="border-t border-[#C57A08] my-7 lg:my-10 3xl:w-90 w-50 md:w-80 lg:w-90"></div>
 
                 {/* Bottom */}
-                <div className="grid grid-cols-2 items-end mt-5 lg:mt-5">
+                <div className="grid md:grid-cols-2  3xl:grid-cols-2 grid-cols-[60%_40%] lg:grid-cols-[60%_40%] items-end mt-5 lg:mt-5">
                   {/* Venue */}
                   <div>
                     <h3 className="text-xl lg:text-4xl md:text-3xl leading-none">
                       Venue
                     </h3>
 
-                    <p className="mt-2 text-[10px] lg:text-[17px] leading-relaxed">
-                      Devaki Wedding Conventions,
-                      <br />
-                      Kanchipuram.
+                    <p className="mt-2 text-[10px] lg:text-[16px] leading-relaxed">
+                     The Leela Palace Chennai,
+                     <br/>
+                     MRC Nagar, Chennai
                     </p>
                   </div>
 
                   {/* QR */}
-                  <div className="flex flex-col items-end">
+                  <div className="flex flex-col items-center ">
                     <img
-                      src="/assets/qr.png"
+                      src="/assets/chennai_qr.png"
                       alt="QR Code"
                       className="w-16 h-16 lg:w-24 lg:h-24 border border-[#C57A08]"
                     />
