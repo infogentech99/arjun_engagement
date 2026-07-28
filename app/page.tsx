@@ -236,14 +236,25 @@ export default function Home() {
               With immense pleasure cordially invite you to the auspicious wedding ceremony of
             </p>
 
-            <h2 className="eb-garamond font-medium text-[#C26F02] text-center mt-6 md:mt-14 text-3xl md:text-5xl lg:text-[64px] leading-tight">
+            {/* <h2 className="eb-garamond font-medium text-[#C26F02] text-center mt-6 md:mt-14 text-3xl md:text-5xl lg:text-[64px] leading-tight">
               Dr. Yuvashri
             </h2>
 
             <h2 className="eb-garamond font-medium text-[#C26F02] text-center mt-4 text-3xl md:text-5xl lg:text-[64px] leading-tight">
               <span className="eb-garamond font-medium text-[#C26F02] text-center lg:mt-10 mt-0 text-xl md:text-3xl lg:text-5xl leading-tight">
                 & </span>   <br /> Varun Prasad, <span className="text-xl font-bold">MBA</span>
+            </h2> */}
+
+<h2 className="font-Cormorant italic font-medium text-[#C26F02] text-center mt-6 md:mt-14 text-3xl md:text-5xl lg:text-[64px] leading-tight">
+              Dr. Yuvashri
             </h2>
+
+            <h2 className="font-Cormorant italic font-medium text-[#C26F02] text-center mt-4 text-3xl md:text-5xl lg:text-[64px] leading-tight">
+              <span className="font-Cormorant italic font-medium text-[#C26F02] text-center lg:mt-10 mt-0 text-xl md:text-3xl lg:text-5xl leading-tight">
+                & </span>   <br /> Varun Prasad, MBA
+            </h2>
+
+
           </div>
 
         </div>
