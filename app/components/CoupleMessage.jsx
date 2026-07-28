@@ -166,7 +166,7 @@ export default function CoupleMessage() {
                       Scan to get directions
                     </p> */}
                     <a
-                      href="https://maps.app.goo.gl/JZH97FXSLugYbhQ97"
+                      href="https://maps.app.goo.gl/awjQk7T1iqSKKmx97"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="mt-1 text-[8px] lg:text-sm underline text-[#C57A08] transition"
