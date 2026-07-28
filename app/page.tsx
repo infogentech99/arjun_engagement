@@ -237,12 +237,12 @@ export default function Home() {
             </p>
 
             <h2 className="eb-garamond font-medium text-[#C26F02] text-center mt-6 md:mt-14 text-3xl md:text-5xl lg:text-[64px] leading-tight">
-              DR. YUVASHRI
+              Dr. Yuvashri
             </h2>
 
             <h2 className="eb-garamond font-medium text-[#C26F02] text-center mt-4 text-3xl md:text-5xl lg:text-[64px] leading-tight">
               <span className="eb-garamond font-medium text-[#C26F02] text-center lg:mt-10 mt-0 text-xl md:text-3xl lg:text-5xl leading-tight">
-                & </span>   <br /> VARUN PRASAD MBA
+                & </span>   <br /> Varun Prasad, <span className="text-xl font-bold">MBA</span>
             </h2>
           </div>
 
