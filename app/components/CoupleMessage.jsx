@@ -186,7 +186,7 @@ export default function CoupleMessage() {
 
 
 
-          <div className="flex justify-center items-center mt-70 md:mt-26 lg:mt-10 absolute top-12 z-10 3xl:left-[28%] lg:left-[35.5%]  md:left-[38%] md:top-[65%] lg:top-[0%] left-[30%]">
+          <div className="flex justify-center items-center mt-70 md:mt-26 lg:mt-10 absolute top-12 z-10 3xl:left-[28%] lg:left-[35.5%]  md:left-[38%] md:top-[65%] lg:top-[0%] left-[28%]">
             <div className="relative w-70 h-92 md:w-100 md:h-100 lg:w-100 lg:h-140 3xl:w-120 3xl:h-100 md:-rotate-3 -rotate-5">
               {/* Background Card */}
               <img
