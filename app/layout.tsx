@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Varun Prasad & Yuvashri",
-    description: "Join as they begin their forever. 30th August 2026",
+    description: "Join as they begin their forever. 29th, 30th August and 3rd September 2026",
     images: ["/og.jpg"],
   },
 
