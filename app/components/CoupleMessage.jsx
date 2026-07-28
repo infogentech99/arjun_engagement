@@ -55,7 +55,7 @@ export default function CoupleMessage() {
         </div>
       </div>
       {/* <div className="bg-[url('/assets/event_desktopbg2.png')] bg-cover bg-no-repeat"> */}
-      <div className="relative bg-[url('/assets/event_desktopbg2.png')] bg-cover bg-no-repeat pb-30">
+      <div className="relative bg-[url('/assets/event_desktopbg2.png')] bg-cover bg-no-repeat pb-30 lg:h-300 md:h-290 h-270">
         {/* Left Flower */}
         <img
           src="/assets/eventleft_flower.png"
@@ -87,14 +87,117 @@ export default function CoupleMessage() {
   />
 </div>
 
-          <div className="flex justify-center items-center mt-26">
-            <div className="relative w-70 h-92 md:w-100 md:h-100 lg:w-125 lg:h-140 3xl:w-140 3xl:h-120 -rotate-3">
+
+<div className="relative lg:flex 3xl:left-[24%] lg:left-[17%] left-[0%]">
+<div className="flex justify-center items-center mt-26 relative z-20">
+            <div className="relative w-85 h-85 md:w-100 md:h-100 lg:w-140 lg:h-120 3xl:w-140 3xl:h-120 -rotate-3">
+              {/* Background Card */}
+              <img
+                src="/assets/card2.png"
+                alt="Wedding Card"
+                className="w-85 h-85 md:w-100 md:h-100 lg:w-140 lg:h-120 3xl:w-140 3xl:h-120"
+              />
+
+              {/* Card Content */}
+              <div className="absolute inset-0 px-[10%] py-[12%] text-[#C57A08] font-serif">
+                <div className="grid grid-cols-2 gap-6">
+                  {/* Reception */}
+                  <div>
+                    <img
+                      src="/assets/varun_rece.png"
+                      alt=""
+                      className="w-10 h-14 mb-2"
+                    />
+
+                    <h3 className="text-xl md:text-3xl lg:text-4xl leading-none">
+                      Reception
+                    </h3>
+
+                    <p className="mt-2 text-[10px] lg:text-[17px]">
+                      Saturday, 29th August 2026
+                    </p>
+
+                    <p className="text-[10px] lg:text-[16px]">
+                      6:30 pm onwards
+                    </p>
+                  </div>
+
+                  {/* Wedding */}
+                  <div className="text-right">
+                     <div className="w-10 h-14 mb-2" />
+
+                    <h3 className="text-xl  md:text-3xl lg:text-4xl leading-none">
+                      Wedding
+                    </h3>
+
+                    <p className="mt-2 text-[10px] lg:text-[17px]">
+                      Sunday, 30th August 2026
+                    </p>
+
+                    <p className="text-[10px] lg:text-[16px]">
+                      7:30 am onwards
+                    </p>
+                  </div>
+                </div>
+
+                {/* Divider */}
+                <div className="border-t border-[#C57A08] mt-10 lg:mt-5"></div>
+
+                {/* Bottom */}
+                <div className="grid grid-cols-2 items-end mt-5 lg:mt-5">
+                  {/* Venue */}
+                  <div>
+                    <h3 className="text-xl lg:text-4xl md:text-3xl leading-none">
+                      Venue
+                    </h3>
+
+                    <p className="mt-2 text-[10px] lg:text-[17px] leading-relaxed">
+                      Devaki Wedding Conventions,
+                      <br />
+                      Kanchipuram.
+                    </p>
+                  </div>
+
+                  {/* QR */}
+                  <div className="flex flex-col items-end">
+                    <img
+                      src="/assets/qr.png"
+                      alt="QR Code"
+                      className="w-16 h-16 lg:w-24 lg:h-24 border border-[#C57A08] lg:mr-4"
+                    />
+
+                    {/* <p className="mt-1 text-[8px] lg:text-sm underline">
+                      Scan to get directions
+                    </p> */}
+                    <a
+                      href="https://maps.app.goo.gl/JZH97FXSLugYbhQ97"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-1 text-[8px] lg:text-sm underline text-[#C57A08] transition"
+                    >
+                      Scan to get directions
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div className="flex justify-center items-center mt-70 md:mt-26 lg:mt-10 absolute top-12 z-10 3xl:left-[28%] lg:left-[34%]  md:left-[38%] md:top-[65%] lg:top-[0%] left-[32%]">
+            <div className="relative w-70 h-92 md:w-100 md:h-100 lg:w-100 lg:h-140 3xl:w-120 3xl:h-100 md:-rotate-3 -rotate-5">
               {/* Background Card */}
               <img
                 src="/assets/card1.png"
                 alt="Wedding Card"
-                className="w-70 h-92 md:w-100 md:h-100 lg:w-125 lg:h-140 3xl:w-120 3xl:h-140"
+                className="w-70 h-92 md:w-100 md:h-100 lg:w-125 lg:h-140 3xl:w-100 3xl:h-140"
               />
+
+
+
+
 
               {/* Card Content */}
               <div className="absolute inset-0 px-[10%] py-[12%] text-[#C57A08] font-serif">
@@ -137,7 +240,7 @@ export default function CoupleMessage() {
                 </div>
 
                 {/* Divider */}
-                <div className="border-t border-[#C57A08] my-7 lg:my-10 3xl:w-90 w-50 md:w-80 lg:w-90"></div>
+                <div className="border-t border-[#C57A08] my-7 lg:my-10 3xl:w-75 w-50 md:w-80 lg:w-80"></div>
 
                 {/* Bottom */}
                 <div className="grid md:grid-cols-2  3xl:grid-cols-[45%_50%] grid-cols-[60%_40%] lg:grid-cols-[60%_40%] items-end mt-5 lg:mt-5">
@@ -155,7 +258,7 @@ export default function CoupleMessage() {
                   </div>
 
                   {/* QR */}
-                  <div className="flex flex-col items-center ">
+                  <div className="flex flex-col items-center lg:ml-3">
                     <img
                       src="/assets/chennai_qr.png"
                       alt="QR Code"
@@ -169,7 +272,7 @@ export default function CoupleMessage() {
                       href="https://maps.app.goo.gl/awjQk7T1iqSKKmx97"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="mt-1 text-[8px] lg:text-sm underline text-[#C57A08] transition"
+                      className="mt-1 text-[8px] lg:text-[12px] underline text-[#C57A08] transition"
                     >
                       Scan to get directions
                     </a>
@@ -177,6 +280,7 @@ export default function CoupleMessage() {
                 </div>
               </div>
             </div>
+          </div>
           </div>
         </div>
       </div>

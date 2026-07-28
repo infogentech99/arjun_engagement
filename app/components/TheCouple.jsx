@@ -184,14 +184,14 @@ export default function TheCouple() {
 
               {/* Heart Content */}
               <div className="absolute top-[26%] md:top-[24%] left-1/2 -translate-x-1/2 md:w-50 w-37.5 lg:w-[320px] text-center text-[#8B4302]">
-                <p className="text-[14px] md:text-xl lg:text-3xl leading-tight font-semibold font-[Cormorant_Garamond]">
+                <p className="text-[14px] md:text-xl lg:text-3xl leading-tight font-semibold font-[Cormorant_Garamond] md:mt-6 mt-2">
                   Awaiting the Pleasure of Your Company
                 </p>
                 <button className="mt-2 px-3 py-1 text-[9px] lg:text-xs rounded-full md:text-[16px] 3xl:text-[16px] font-[Cormorant_Garamond]">
                   Click the link to RSVP
                 </button>
                 <p className="mt-2 text-[8px] md:text-[16px] tracking-[2px] font-semibold text-xl font-[Cormorant_Garamond]">
-                  VARUN & YUVASHRI
+                  VARUN PRASAD
                 </p>
                 <div className="w-12 bg-[#E27500] mx-auto md:my-2 my-0"></div>
                 {/* <p className="text-[8px] lg:text-[16px] md:text-[14px] font-[Cormorant_Garamond] text-[#E27500] font-semibold">7704724319</p>
@@ -206,18 +206,18 @@ export default function TheCouple() {
                   9176642399
                 </a>
 
-                <p className="text-[8px] md:text-[14px] lg:text-[16px] font-[Cormorant_Garamond] text-[#E27500] font-semibold">
+                {/* <p className="text-[8px] md:text-[14px] lg:text-[16px] font-[Cormorant_Garamond] text-[#E27500] font-semibold">
                   &
-                </p>
+                </p> */}
 
-                <a
+                {/* <a
                   href="https://wa.me/9150688441"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[8px] md:text-[14px] lg:text-[16px] font-[Cormorant_Garamond] text-[#E27500] font-semibold hover:underline"
                 >
                   9150688441
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
