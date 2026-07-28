@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
   openGraph: {
     title: "Varun Prasad & Yuvashri",
-    description: "Join as they begin their forever. 30th August 2026",
+    description: "Join as they begin their forever. 29th, 30th August and 3rd September 2026",
     url: "https://varunwedsyuvashri.invitearc.com/",
     siteName: "InviteArc",
     images: [
