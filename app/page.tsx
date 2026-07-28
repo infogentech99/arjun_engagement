@@ -187,7 +187,7 @@ export default function Home() {
       <audio ref={audioRef} src="/assets/background_song.mp3" loop preload="auto" playsInline />
 
       {/* hero section */}
-      <div className=" bg-[url('/assets/bg_mobile.png')] md:bg-[url('/assets/background.webp')] 3xl:bg-[url('/assets/background.webp')]
+      <div className=" bg-[url('/assets/bg_mobile2.png')] md:bg-[url('/assets/background.webp')] 3xl:bg-[url('/assets/background.webp')]
                       bg-cover bg-top bg-no-repeat min-h-screen w-full relative overflow-hidden">
 
         <RoseHeroTemp />
@@ -200,9 +200,16 @@ export default function Home() {
             <span className="parisienne-regular">Yuvashri</span>
           </h2>
 
-          <div className="flex flex-col justify-center items-center mt-40 md:mt-40 lg:mt-20 pb-20 lg:pb-60 3xl:mt-52">
+          <div className="flex flex-col justify-center items-center mt-65 md:mt-60 lg:mt-20 pb-20 lg:pb-60 3xl:mt-52">
+      <div className="text-center md:mt-4 lg:mt-4 3xl:mt-2">
             <h2 className="eb-garamond font-medium text-[12px] md:text-xl lg:text-base 3xl:text-[22px] text-center text-[#C26F02]">COUNTDOWN TO OUR BIG DAY</h2>
-            <hr className="w-20 md:w-66 lg:w-64 border:0.5  lg:border border-[#C26F02] my-0 md:my-2 lg:my-2 3xl:my-3" />
+             <img
+    src="/assets/underline.png"
+    alt="underline"
+    className="mx-auto mt-2 w-[200px] md:w-32 md:w-[350px] md:mt-2"
+  />
+</div>
+            {/* <hr className="w-20 md:w-66 lg:w-64 border:0.5  lg:border border-[#C26F02] my-0 md:my-2 lg:my-2 3xl:my-3" /> */}
             <h2 className="eb-garamond font-normal flex text-xs md:text-3xl lg:text-xl text-center text-[#C26F02] gap-3 md:gap-6 lg:gap-12 3xl:gap-14 mt-6 md:mt-0">
 
               <div><span className="font-bold 3xl:text-4xl md:text-2xl text-[18px]"> {timeLeft.days}</span>
