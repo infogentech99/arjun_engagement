@@ -140,7 +140,7 @@ export default function CoupleMessage() {
                 <div className="border-t border-[#C57A08] my-7 lg:my-10 3xl:w-90 w-50 md:w-80 lg:w-90"></div>
 
                 {/* Bottom */}
-                <div className="grid md:grid-cols-2  3xl:grid-cols-2 grid-cols-[60%_40%] lg:grid-cols-[60%_40%] items-end mt-5 lg:mt-5">
+                <div className="grid md:grid-cols-2  3xl:grid-cols-[45%_50%] grid-cols-[60%_40%] lg:grid-cols-[60%_40%] items-end mt-5 lg:mt-5">
                   {/* Venue */}
                   <div>
                     <h3 className="text-xl lg:text-4xl md:text-3xl leading-none">

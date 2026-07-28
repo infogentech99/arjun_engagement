@@ -251,7 +251,7 @@ export default function Home() {
 
             <h2 className="font-Cormorant italic font-medium text-[#C26F02] text-center mt-4 text-3xl md:text-5xl lg:text-[64px] leading-tight">
               <span className="font-Cormorant italic font-medium text-[#C26F02] text-center lg:mt-10 mt-0 text-xl md:text-3xl lg:text-5xl leading-tight">
-                & </span>   <br /> Varun Prasad, MBA
+                & </span>   <br /> Varun Prasad, <span className="md:text-2xl text-[16px]">MBA</span>
             </h2>
 
 
