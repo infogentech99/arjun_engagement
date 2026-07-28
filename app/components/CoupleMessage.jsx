@@ -108,7 +108,7 @@ export default function CoupleMessage() {
                     />
 
                     <h3 className="text-xl md:text-3xl lg:text-4xl leading-none">
-                      Chennai Reception
+                     Reception
                     </h3>
 
                     <p className="mt-2 text-[10px] lg:text-[16px]">
