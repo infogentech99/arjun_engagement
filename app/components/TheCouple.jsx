@@ -23,7 +23,7 @@ export default function TheCouple() {
   return (
     <>
       <div className="bg-[url('/assets/varuncouplemobile_bg.png')] md:bg-[url('/assets/varuncouple_bg2.png')] bg-cover bg-no-repeat">
-        <div className="h-609 md:h-500 lg:h-800 3xl:h-850">
+        <div className="h-609 md:h-500 lg:h-900 3xl:h-950">
           {/* <h1 className="parisienne-regular font-medium text-4xl md:text-5xl lg:text-7xl text-center text-[#C26F02] lg:pt-40 pt-20">
             The Couple
           </h1> */}
@@ -45,22 +45,22 @@ export default function TheCouple() {
               <img
                 src="/assets/love.png"
                 alt="Love"
-                className="absolute top-0 left-0 w-42.5 lg:w-82.5 -rotate-6 z-30"
+                className="absolute top-0 left-0 w-42.5 lg:w-82.5 -rotate-6 z-30 3xl:w-100 3xl:-left-30"
               />
 
               {/* Top Right */}
               <img
                 src="/assets/thecouple3.png"
                 alt=""
-                className="absolute top-8 right-5 lg:top-12 lg:right-18 md:right-12 w-35 md:w-30 lg:w-80 rotate-1 shadow-lg z-20"
+                className="absolute top-8 right-5 lg:top-12 lg:right-18 3xl:right-0 md:right-12 w-35 md:w-30 lg:w-80 3xl:w-100 rotate-1 shadow-lg z-20"
               />
 
               {/* Left */}
               <img
                 src="/assets/thecouple1.png"
                 alt=""
-                className="absolute top-18 left-6 lg:top-40 lg:-left-10
-      w-35 lg:w-80
+                className="absolute top-18 left-6 lg:top-40 lg:-left-10  3xl:-left-35
+      w-35 lg:w-80 3xl:w-100
       -rotate-2  shadow-lg z-10"
               />
 
@@ -68,8 +68,8 @@ export default function TheCouple() {
               <img
                 src="/assets/thecouple2.png"
                 alt=""
-                className="absolute bottom-5 left-10 lg:-bottom-10 lg:left-16
-      w-40 lg:w-80
+                className="absolute bottom-5 left-10 lg:-bottom-10  3xl:-bottom-40 lg:left-16 3xl:-left-20
+      w-40 lg:w-80 3xl:w-100
       rotate-1 shadow-lg z-30"
               />
 
@@ -77,8 +77,8 @@ export default function TheCouple() {
               <img
                 src="/assets/thecouple4.png"
                 alt=""
-                className="absolute bottom-0 right-12 lg:bottom-2 lg:right-16 lg:top-55
-      w-35 lg:w-70
+                className="absolute bottom-0 right-12 lg:bottom-2 lg:right-16 3xl:right-6 lg:top-55 3xl:top-75
+      w-35 lg:w-70 3xl:w-85
       rotate-4 shadow-lg z-20"
               />
 
@@ -86,7 +86,7 @@ export default function TheCouple() {
               <img
                 src="/assets/couple_flower.png"
                 alt=""
-                className="absolute bottom-0 lg:-right-35 -right-20 
+                className="absolute bottom-0 lg:-right-35 -right-20 3xl:-right-45 3xl:top-90
       w-45 lg:w-75
       opacity-70"
               />
@@ -97,7 +97,7 @@ export default function TheCouple() {
             For Our Guests
           </h1> */}
 
-<div className="flex lg:gap-20 justify-center mt-20 gap-8">
+<div className="flex lg:gap-20 justify-center mt-20 gap-8 3xl:pt-100 lg:pt-40">
     <div>
  <img
               src="/assets/left_flower.png"
@@ -107,7 +107,7 @@ export default function TheCouple() {
     </div>
 
  <div className="text-center">
-            <h1 className="parisienne-regular font-medium text-4xl md:text-5xl lg:text-7xl text-[#C26F02] lg:pt-40 md:pt-20 pt-5">
+            <h1 className="parisienne-regular font-medium text-4xl md:text-5xl lg:text-7xl text-[#C26F02] lg:pt-40 md:pt-20 pt-5 ">
               For Our Guests
             </h1>
 
@@ -138,7 +138,7 @@ export default function TheCouple() {
             {cards.map((item, index) => (
               <div
                 key={index}
-                className="relative w-55 h-75 lg:w-72 lg:h-100"
+                className="relative w-55 h-75 lg:w-90 lg:h-130"
               >
                 <img
                   src="/assets/frame.png"
@@ -146,12 +146,12 @@ export default function TheCouple() {
                   className="absolute inset-0 w-full h-full object-contain"
                 />
 
-                <div className="absolute inset-0 flex flex-col items-center px-8 py-8">
-                  <div className="w-16 h-16 lg:w-20 lg:h-20 rounded-full border border-[#C57A08] flex items-center justify-center">
+                <div className="absolute inset-0 flex flex-col items-center px-8 py-8 lg:pt-18">
+                  <div className="w-16 h-16 lg:w-30 lg:h-30 rounded-full border border-[#C57A08] flex items-center justify-center">
                     <img
                       src={item.icon}
                       alt=""
-                      className="w-8 h-8 lg:w-10 lg:h-10 object-contain"
+                      className="w-8 h-8 lg:w-18 lg:h-18 object-contain"
                     />
                   </div>
 
@@ -173,7 +173,7 @@ export default function TheCouple() {
             ))}
           </div>
 
-          <div className="flex justify-center mt-20">
+          <div className="flex justify-center mt-20 md:mt-30 lg:mt-40 3xl:mt-50">
             <div className="relative w-95 h-95 lg:w-142.5 lg:h-172.5 md:w-132.5 md:h-132.5">
               {/* Couple Illustration */}
               <img
@@ -187,7 +187,7 @@ export default function TheCouple() {
                 <p className="text-[14px] md:text-xl lg:text-3xl leading-tight font-semibold font-[Cormorant_Garamond]">
                   Awaiting the Pleasure of Your Company
                 </p>
-                <button className="mt-2 px-3 py-1 text-[9px] lg:text-xs rounded-full md:text-[16px] 3xl:text-xl font-[Cormorant_Garamond]">
+                <button className="mt-2 px-3 py-1 text-[9px] lg:text-xs rounded-full md:text-[16px] 3xl:text-[16px] font-[Cormorant_Garamond]">
                   Click the link to RSVP
                 </button>
                 <p className="mt-2 text-[8px] md:text-[16px] tracking-[2px] font-semibold text-xl font-[Cormorant_Garamond]">

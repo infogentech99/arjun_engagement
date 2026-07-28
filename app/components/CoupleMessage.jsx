@@ -44,12 +44,12 @@ export default function CoupleMessage() {
             <img
               src="/assets/couple_varun1.png"
               alt="weather"
-              className="w-50 h-50 md:w-50 md:h-50 lg:w-100 lg:h-100 -rotate-5 z-10"
+              className="w-50 h-50 md:w-50 md:h-50 lg:w-100 lg:h-100 -rotate-5 z-10 [filter:drop-shadow(0_6px_6px_rgba(0,0,0,0.45))]"
             />
             <img
               src="/assets/couple_varun2.png"
               alt="weather"
-              className="w-50 h-50 md:w-50 md:h-50 lg:w-100 lg:h-100  -rotate-5 -ml-10 z-0"
+              className="w-50 h-50 md:w-50 md:h-50 lg:w-100 lg:h-100  -rotate-5 -ml-10 z-0 [filter:drop-shadow(0_6px_6px_rgba(0,0,0,0.45))]"
             />
           </div>
         </div>
@@ -60,14 +60,14 @@ export default function CoupleMessage() {
         <img
           src="/assets/eventleft_flower.png"
           alt=""
-          className="absolute left-0 bottom-0 w-32 md:w-40 lg:w-90 3xl:w-100 z-0 pointer-events-none"
+          className="absolute left-0 bottom-0 w-32 md:w-40 lg:w-100 3xl:w-120 z-0 pointer-events-none"
         />
 
         {/* Right Flower */}
         <img
           src="/assets/eventright_flower.png"
           alt=""
-          className="absolute right-0 bottom-0 w-32 md:w-40 lg:w-90 3xl:w-100 z-0 pointer-events-none"
+          className="absolute right-0 bottom-0 w-32 md:w-40 lg:w-100 3xl:w-120 z-0 pointer-events-none "
         />
         <div className="h-180 md:h-180 lg:h-250 flex-row justify-center items-center">
           {/* <h1 className="parisienne-regular font-medium text-4xl md:text-5xl lg:text-7xl text-center text-[#C26F02] lg:pt-40 pt-20">
