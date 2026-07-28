@@ -187,8 +187,13 @@ export default function TheCouple() {
                 <p className="text-[14px] md:text-xl lg:text-3xl leading-tight font-semibold font-[Cormorant_Garamond] md:mt-6 mt-2">
                   Awaiting the Pleasure of Your Company
                 </p>
-                <button className="mt-2 px-3 py-1 text-[9px] lg:text-xs rounded-full md:text-[16px] 3xl:text-[16px] font-[Cormorant_Garamond]">
-                  Click the link to RSVP
+              <button className="mt-2 px-3 py-1 text-[9px] lg:text-xs rounded-full md:text-[16px] 3xl:text-[16px] font-[Cormorant_Garamond]">
+                  Click the <a
+                  href="https://wa.me/9176642399"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[8px] md:text-[14px] lg:text-[16px] font-[Cormorant_Garamond] text-[#E27500] font-semibold hover:underline"
+                > link</a> to RSVP
                 </button>
                 <p className="mt-2 text-[8px] md:text-[16px] tracking-[2px] font-semibold text-xl font-[Cormorant_Garamond]">
                   VARUN PRASAD
@@ -197,14 +202,15 @@ export default function TheCouple() {
                 {/* <p className="text-[8px] lg:text-[16px] md:text-[14px] font-[Cormorant_Garamond] text-[#E27500] font-semibold">7704724319</p>
                   <p className="text-[8px] lg:text-[16px] md:text-[14px]  font-[Cormorant_Garamond] text-[#E27500] font-semibold">&</p>
                 <p className="text-[8px] lg:text-[16px] md:text-[14px]  font-[Cormorant_Garamond] text-[#E27500] font-semibold">9156055441</p> */}
-                <a
+                {/* <a
                   href="https://wa.me/9176642399"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[8px] md:text-[14px] lg:text-[16px] font-[Cormorant_Garamond] text-[#E27500] font-semibold hover:underline"
-                >
+                > */}
+                <p className="text-[8px] md:text-[14px] lg:text-[16px] font-[Cormorant_Garamond] font-semibold">
                   9176642399
-                </a>
+                </p>
 
                 {/* <p className="text-[8px] md:text-[14px] lg:text-[16px] font-[Cormorant_Garamond] text-[#E27500] font-semibold">
                   &
