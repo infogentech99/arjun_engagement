@@ -42,12 +42,12 @@ export default function CoupleMessage() {
 
           <div className="flex justify-center items-center 3xl:mt-22 lg:mt-32 md:mt-22 mt-20">
             <img
-              src="/assets/couple_varun1.png"
+              src="/assets/couple_v1.png"
               alt="weather"
               className="w-50 h-50 md:w-50 md:h-50 lg:w-100 lg:h-100 -rotate-5 z-10 [filter:drop-shadow(0_6px_6px_rgba(0,0,0,0.45))]"
             />
             <img
-              src="/assets/couple_varun2.png"
+              src="/assets/couple_v2.png"
               alt="weather"
               className="w-50 h-50 md:w-50 md:h-50 lg:w-100 lg:h-100  -rotate-5 -ml-10 z-0 [filter:drop-shadow(0_6px_6px_rgba(0,0,0,0.45))]"
             />
@@ -114,7 +114,7 @@ export default function CoupleMessage() {
                     </h3>
 
                     <p className="mt-2 text-[10px] lg:text-[17px]">
-                      Saturday, 29th August 2026
+                      Saturday, 8th October 2026
                     </p>
 
                     <p className="text-[10px] lg:text-[16px]">
@@ -131,7 +131,7 @@ export default function CoupleMessage() {
                     </h3>
 
                     <p className="mt-2 text-[10px] lg:text-[17px]">
-                      Sunday, 30th August 2026
+                      Sunday, 10th October 2026
                     </p>
 
                     <p className="text-[10px] lg:text-[16px]">
@@ -152,9 +152,9 @@ export default function CoupleMessage() {
                     </h3>
 
                     <p className="mt-2 text-[10px] lg:text-[17px] leading-relaxed">
-                      Devaki Wedding Conventions,
+                      Green Meadows Resort,
                       <br />
-                      Kanchipuram.
+                      Palavakkam.
                     </p>
                   </div>
 
@@ -170,7 +170,7 @@ export default function CoupleMessage() {
                       Scan to get directions
                     </p> */}
                     <a
-                      href="https://maps.app.goo.gl/JZH97FXSLugYbhQ97"
+                      href="https://maps.app.goo.gl/H74iLhPuTouuMdnz5"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="mt-1 text-[8px] lg:text-sm underline text-[#C57A08] transition"
@@ -215,11 +215,11 @@ export default function CoupleMessage() {
                     </h3>
 
                     <p className="mt-2 text-[10px] lg:text-[16px]">
-                      Thursday, 3rd September 2026
+                      Thursday, 12th october 2026
                     </p>
 
                     <p className="text-[10px] lg:text-[16px]">
-                      6:30 pm onwards
+                      7:30 pm onwards
                     </p>
                   </div>
 
@@ -251,9 +251,9 @@ export default function CoupleMessage() {
                     </h3>
 
                     <p className="mt-2 text-[10px] lg:text-[16px] leading-relaxed">
-                     The Leela Palace Chennai,
+                     ABRIGO Hotels and Resorts Pvt. Ltd,
                      <br/>
-                     MRC Nagar, Chennai
+                     Tamilnadu, Chennai
                     </p>
                   </div>
 
@@ -269,7 +269,7 @@ export default function CoupleMessage() {
                       Scan to get directions
                     </p> */}
                     <a
-                      href="https://maps.app.goo.gl/awjQk7T1iqSKKmx97"
+                      href="https://maps.app.goo.gl/H74iLhPuTouuMdnz5"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="mt-1 text-[8px] lg:text-[12px] underline text-[#C57A08] transition"

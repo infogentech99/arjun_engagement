@@ -50,14 +50,14 @@ export default function TheCouple() {
 
               {/* Top Right */}
               <img
-                src="/assets/thecouple3.png"
+                src="/assets/thecouplev4.png"
                 alt=""
                 className="absolute top-8 right-5 lg:top-12 lg:right-18 3xl:right-0 md:right-12 w-35 md:w-30 lg:w-80 3xl:w-100 rotate-1 shadow-lg z-20"
               />
 
               {/* Left */}
               <img
-                src="/assets/thecouple1.png"
+                src="/assets/thecouplev2.png"
                 alt=""
                 className="absolute top-18 left-6 lg:top-40 lg:-left-10  3xl:-left-35
       w-35 lg:w-80 3xl:w-100
@@ -66,7 +66,7 @@ export default function TheCouple() {
 
               {/* Bottom Left */}
               <img
-                src="/assets/thecouple2.png"
+                src="/assets/thecouplev1.png"
                 alt=""
                 className="absolute bottom-5 left-10 lg:-bottom-10  3xl:-bottom-40 lg:left-16 3xl:-left-20
       w-40 lg:w-80 3xl:w-100
@@ -75,7 +75,7 @@ export default function TheCouple() {
 
               {/* Bottom Right */}
               <img
-                src="/assets/thecouple4.png"
+                src="/assets/thecouplev3.png"
                 alt=""
                 className="absolute bottom-0 right-12 lg:bottom-2 lg:right-16 3xl:right-6 lg:top-55 3xl:top-75
       w-35 lg:w-70 3xl:w-85
@@ -198,14 +198,14 @@ export default function TheCouple() {
                 </p>
               <button className="mt-2 px-3 py-1 text-[9px] lg:text-xs rounded-full md:text-[16px] 3xl:text-[16px] font-[Cormorant_Garamond]">
                   Click the <a
-                  href="https://wa.me/9176642399"
+                  href="https://wa.me/918888888888"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[8px] md:text-[14px] lg:text-[16px] font-[Cormorant_Garamond] text-[#E27500] font-semibold hover:underline"
                 > link</a> to RSVP
                 </button>
                 <p className="mt-2 text-[8px] md:text-[16px] tracking-[2px] font-semibold text-xl font-[Cormorant_Garamond]">
-                  VARUN PRASAD
+                  Arjun Reddy
                 </p>
                 <div className="w-12 bg-[#E27500] mx-auto md:my-2 my-0"></div>
                 {/* <p className="text-[8px] lg:text-[16px] md:text-[14px] font-[Cormorant_Garamond] text-[#E27500] font-semibold">7704724319</p>
@@ -218,7 +218,7 @@ export default function TheCouple() {
                   className="text-[8px] md:text-[14px] lg:text-[16px] font-[Cormorant_Garamond] text-[#E27500] font-semibold hover:underline"
                 > */}
                 <p className="text-[8px] md:text-[14px] lg:text-[16px] font-[Cormorant_Garamond] font-semibold">
-                  9176642399
+                  9188888888
                 </p>
 
                 {/* <p className="text-[8px] md:text-[14px] lg:text-[16px] font-[Cormorant_Garamond] text-[#E27500] font-semibold">

@@ -87,47 +87,9 @@ export default function Home() {
     };
   }, [started]);
 
-  //   const TARGET_DATE = new Date("2026-08-30").getTime();
-  //       const [timeLeft, setTimeLeft] = useState({
-  //           days: 0,
-  //           hours: 0,
-  //           minutes: 0,
-  //           seconds:0,
-  //       });
-
-  //       useEffect(() => {
-  //           const updateCountdown = () => {
-  //               const now = new Date().getTime();
-  //               const diff = TARGET_DATE - now;
-  //               if (diff <= 0) {
-  //                   setTimeLeft({ days: 30, hours: 10, minutes: 30, seconds:30});
-  //                   return;
-  //               }
-  //               const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-  //               const hours = Math.floor(
-  //                   (diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-  //               );
-  //               const minutes = Math.floor(
-  //                   (diff % (1000 * 60 * 60)) / (1000 * 60)
-  //               );
-
-  //              const seconds = Math.floor(
-  //     (diff % (1000 * 60)) / 1000
-  // );
 
 
-  //               setTimeLeft({ days, hours, minutes, seconds, });
-  //           };
-
-  //           updateCountdown(); // first run
-  //           const interval = setInterval(updateCountdown, 60000); // every minute
-
-  //           return () => clearInterval(interval);
-  //       }, []);
-
-
-
-  const TARGET_DATE = new Date("2026-08-30").getTime();
+  const TARGET_DATE = new Date("2026-10-08").getTime();
 
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
@@ -187,17 +149,17 @@ export default function Home() {
       <audio ref={audioRef} src="/assets/background_song.mp3" loop preload="auto" playsInline />
 
       {/* hero section */}
-      <div className=" bg-[url('/assets/bg_mobile2.png')] md:bg-[url('/assets/background.webp')] 3xl:bg-[url('/assets/background.webp')]
+      <div className=" bg-[url('/assets/bg_mobile2n.png')] md:bg-[url('/assets/wedding.webp')]
                       bg-cover bg-top bg-no-repeat min-h-screen w-full relative overflow-hidden">
 
         <RoseHeroTemp />
 
-        <div className="pt-22 md:pt-42 lg:pt-70 3xl:pt-90 relative z-10">
+        <div className="pt-22 md:pt-52 lg:pt-70 3xl:pt-90 relative z-10">
           <h2 className="text-[#69301B] text-center leading-tight text-[14px] md:text-2xl lg:text-[52px] pb-0
-                          md:pb-40 lg:pb-110 3xl:pb-115 flex flex-col items-center">
-            <span className="parisienne-regular">Varun Prasad</span>
+                          md:pb-100 lg:pb-110 3xl:pb-115 flex flex-col items-center">
+            <span className="parisienne-regular">Arjun Reddy</span>
             <span className="jacques-francois text-[8px] md:text-2xl lg:text-[28px] tracking-widest">WEDS</span>
-            <span className="parisienne-regular">Yuvashri</span>
+            <span className="parisienne-regular">Divya Srinivasan</span>
           </h2>
 
           <div className="flex flex-col justify-center items-center mt-65 md:mt-60 lg:mt-20 pb-20 lg:pb-60 3xl:mt-52">
@@ -225,12 +187,12 @@ export default function Home() {
 
           <div className="flex flex-col items-center text-center gap-6 mt-0 lg:pt-0 pt-0">
             <h2 className="eb-garamond font-medium text-[#C26F02] text-xs md:text-xl lg:text-[26px] md:pt-8">
-              With the heavenly blessings of <br /> Mrs. Jeeva Ravi and Mr. Ravi Srinivasan.
+              With the heavenly blessings of <br /> Mrs. Keerthana Nair and Mr. Rajeev Nair
             </h2>
 
             <hr className="w-16 lg:w-24 border-[#C26F02] lg:border-2 my-0 md:my-4" />
             <h2 className="eb-garamond font-medium text-[#C26F02] text-xs md:text-xl lg:text-[26px]">
-              Mrs. Jamunarani R and Mr. Ravi G
+              Mrs. Lakshmi Srinivasan and Mr. R. Srinivasan Iyer
             </h2>
           </div>
 
@@ -244,21 +206,21 @@ export default function Home() {
             </p>
 
             {/* <h2 className="eb-garamond font-medium text-[#C26F02] text-center mt-6 md:mt-14 text-3xl md:text-5xl lg:text-[64px] leading-tight">
-              Dr. Yuvashri
+              Dr. Divya Srinivasan
             </h2>
 
             <h2 className="eb-garamond font-medium text-[#C26F02] text-center mt-4 text-3xl md:text-5xl lg:text-[64px] leading-tight">
               <span className="eb-garamond font-medium text-[#C26F02] text-center lg:mt-10 mt-0 text-xl md:text-3xl lg:text-5xl leading-tight">
-                & </span>   <br /> Varun Prasad, <span className="text-xl font-bold">MBA</span>
+                & </span>   <br /> Arjun Reddy, <span className="text-xl font-bold">MBA</span>
             </h2> */}
 
 <h2 className="font-Cormorant italic font-medium text-[#C26F02] text-center mt-6 md:mt-14 text-3xl md:text-5xl lg:text-[64px] leading-tight">
-              Dr. Yuvashri
+              Divya Srinivasan
             </h2>
 
             <h2 className="font-Cormorant italic font-medium text-[#C26F02] text-center mt-4 text-3xl md:text-5xl lg:text-[64px] leading-tight">
               <span className="font-Cormorant italic font-medium text-[#C26F02] text-center lg:mt-10 mt-0 text-xl md:text-3xl lg:text-5xl leading-tight">
-                & </span>   <br /> Varun Prasad, <span className="md:text-2xl text-[16px]">MBA</span>
+                & </span>   <br /> Arjun Reddy, <span className="md:text-2xl text-[16px]">Btech</span>
             </h2>
 
 
@@ -270,7 +232,7 @@ export default function Home() {
       <CoupleMessage />
       <TheCouple />
 
-      <div className="md:bg-[url('/assets/footer_bg2.png')] bg-[url('/assets/footer_mobilebg.png')] bg-cover bg-no-repeat">
+      <div className="md:bg-[url('/assets/footer_bgn.png')] bg-[url('/assets/footer_mobilebgn2.png')] bg-cover bg-no-repeat">
         <div className="h-185 md:h-300 lg:h-550 3xl:h-680 flex flex-col items-center relative">
 
           <h2 className="parisienne-regular text-2xl md:text-4xl lg:text-[60px] text-center text-[#C26F02] pt-14 md:pt-11 lg:pt-42 3xl:pt-55">The Journey to Forever Begins</h2>
