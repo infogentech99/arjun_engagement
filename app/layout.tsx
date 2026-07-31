@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
   openGraph: {
     title: "Arjun Reddy & Divya Srinivasan",
-    description: "Join as they begin their forever. 29th, 30th August and 3rd September 2026",
+    description: "Join as they begin their forever. 8th, 10th October and 12th October 2026",
     url: "https://arjundemo.vercel.app/",
     siteName: "InviteArc",
     images: [
