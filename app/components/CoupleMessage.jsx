@@ -20,16 +20,16 @@ export default function CoupleMessage() {
 
           </div> */}
           <div className="text-center">
-  <h1 className="parisienne-regular font-medium text-4xl md:text-5xl lg:text-7xl text-[#C26F02] lg:pt-40 pt-20">
-    Our Story
-  </h1>
+            <h1 className="parisienne-regular font-medium text-4xl md:text-5xl lg:text-7xl text-[#C26F02] lg:pt-40 pt-20">
+              Our Story
+            </h1>
 
-  <img
-    src="/assets/underline.png"
-    alt="underline"
-    className="mx-auto mt-2 w-[200px] md:w-32 md:w-[350px] md:mt-7"
-  />
-</div>
+            <img
+              src="/assets/underline.png"
+              alt="underline"
+              className="mx-auto mt-2 w-[200px] md:w-32 md:w-[350px] md:mt-7"
+            />
+          </div>
           <h2 className="eb-garamond font-normal text-xs md:text-sm lg:text-[22px] 3xl:text-[26px] text-center text-[#C26F02] px-3 md:px-17 lg:px-51 3xl:px-103 mt-10 lg:mt-16 leading-5 md:leading-tight">
             Ours is a beautiful arranged marriage that brought two families and
             two hearts together. What began with a simple introduction soon
@@ -74,158 +74,55 @@ export default function CoupleMessage() {
             Our Events
           </h1> */}
 
-
           <div className="text-center">
-  <h1 className="parisienne-regular font-medium text-4xl md:text-5xl lg:text-7xl text-[#C26F02] lg:pt-40 pt-20">
-    Our Events
-  </h1>
+            <h1 className="parisienne-regular font-medium text-4xl md:text-5xl lg:text-7xl text-[#C26F02] lg:pt-40 pt-20">
+              Our Events
+            </h1>
 
-  <img
-    src="/assets/underline.png"
-    alt="underline"
-    className="mx-auto mt-2 w-[200px] md:w-32 md:w-[350px] md:mt-7"
-  />
-</div>
-
-
-<div className="relative lg:flex 3xl:left-[24%] lg:left-[17%] left-[0%]">
-<div className="flex justify-center items-center mt-26 relative z-20">
-            <div className="relative w-85 h-85 md:w-100 md:h-100 lg:w-140 lg:h-120 3xl:w-140 3xl:h-120 -rotate-3">
-              {/* Background Card */}
-              <img
-                src="/assets/card2.png"
-                alt="Wedding Card"
-                className="w-85 h-85 md:w-100 md:h-100 lg:w-140 lg:h-120 3xl:w-140 3xl:h-120"
-              />
-
-              {/* Card Content */}
-              <div className="absolute inset-0 px-[10%] py-[12%] text-[#C57A08] font-serif">
-                <div className="grid grid-cols-2 gap-6">
-                  {/* Reception */}
-                  <div>
-                    <img
-                      src="/assets/varun_rece.png"
-                      alt=""
-                      className="w-10 h-14 mb-2"
-                    />
-
-                    <h3 className="text-xl md:text-3xl lg:text-4xl leading-none">
-                      Reception
-                    </h3>
-
-                    <p className="mt-2 text-[10px] lg:text-[17px]">
-                      Saturday, 8th October 2026
-                    </p>
-
-                    <p className="text-[10px] lg:text-[16px]">
-                      6:30 pm onwards
-                    </p>
-                  </div>
-
-                  {/* Wedding */}
-                  <div className="text-right">
-                     <div className="w-10 h-14 mb-2" />
-
-                    <h3 className="text-xl  md:text-3xl lg:text-4xl leading-none">
-                      Wedding
-                    </h3>
-
-                    <p className="mt-2 text-[10px] lg:text-[17px]">
-                      Sunday, 10th October 2026
-                    </p>
-
-                    <p className="text-[10px] lg:text-[16px]">
-                      7:30 am onwards
-                    </p>
-                  </div>
-                </div>
-
-                {/* Divider */}
-                <div className="border-t border-[#C57A08] mt-10 lg:mt-5"></div>
-
-                {/* Bottom */}
-                <div className="grid grid-cols-2 items-end mt-5 lg:mt-5">
-                  {/* Venue */}
-                  <div>
-                    <h3 className="text-xl lg:text-4xl md:text-3xl leading-none">
-                      Venue
-                    </h3>
-
-                    <p className="mt-2 text-[10px] lg:text-[17px] leading-relaxed">
-                      Green Meadows Resort,
-                      <br />
-                      Palavakkam.
-                    </p>
-                  </div>
-
-                  {/* QR */}
-                  <div className="flex flex-col items-end">
-                    <img
-                      src="/assets/qr.png"
-                      alt="QR Code"
-                      className="w-16 h-16 lg:w-24 lg:h-24 border border-[#C57A08] lg:mr-4"
-                    />
-
-                    {/* <p className="mt-1 text-[8px] lg:text-sm underline">
-                      Scan to get directions
-                    </p> */}
-                    <a
-                      href="https://maps.app.goo.gl/H74iLhPuTouuMdnz5"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mt-1 text-[8px] lg:text-sm underline text-[#C57A08] transition"
-                    >
-                      Scan to get directions
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <img
+              src="/assets/underline.png"
+              alt="underline"
+              className="mx-auto mt-2 w-[200px] md:w-32 md:w-[350px] md:mt-7"
+            />
           </div>
 
+          <div className="relative flex justify-center items-center md:mt-16">
+            <div className="flex justify-center items-center mt-40 md:mt-26 lg:mt-10 absolute top-0 z-10 md:top-[65%] lg:top-[0%]">
+              <div className="relative w-70 h-92 md:w-100 md:h-100 lg:w-100 lg:h-140 3xl:w-120 3xl:h-100 md:-rotate-3 -rotate-5">
+                {/* Background Card */}
+                <img
+                  src="/assets/card1.png"
+                  alt="Wedding Card"
+                  className="w-70 h-92 md:w-100 md:h-100 lg:w-125 lg:h-140 3xl:w-100 3xl:h-140"
+                />
 
+                {/* Card Content */}
+                <div className="absolute inset-0 px-[10%] py-[12%] text-[#C57A08] font-serif">
+                  <div className="grid md:grid-cols-1 3xl:grid-cols-1 lg:grid-cols-1  grid-cols-1  gap-0">
+                    {/* Reception */}
+                    <div>
+                      <img
+                        src="/assets/engagement_s.png"
+                        alt=""
+                        className="w-19 h-12 mb-2"
+                      />
 
+                      <h3 className="text-xl md:text-3xl lg:text-4xl leading-none">
+                        Engagement
+                      </h3>
 
-          <div className="flex justify-center items-center mt-70 md:mt-26 lg:mt-10 absolute top-12 z-10 3xl:left-[28%] lg:left-[35.5%]  md:left-[38%] md:top-[65%] lg:top-[0%] left-[28%]">
-            <div className="relative w-70 h-92 md:w-100 md:h-100 lg:w-100 lg:h-140 3xl:w-120 3xl:h-100 md:-rotate-3 -rotate-5">
-              {/* Background Card */}
-              <img
-                src="/assets/card1.png"
-                alt="Wedding Card"
-                className="w-70 h-92 md:w-100 md:h-100 lg:w-125 lg:h-140 3xl:w-100 3xl:h-140"
-              />
+                      <p className="mt-2 text-[10px] lg:text-[16px]">
+                        Thursday, 12th october 2026
+                      </p>
 
+                      <p className="text-[10px] lg:text-[16px]">
+                        7:30 pm onwards
+                      </p>
+                    </div>
 
-
-
-
-              {/* Card Content */}
-              <div className="absolute inset-0 px-[10%] py-[12%] text-[#C57A08] font-serif">
-                <div className="grid md:grid-cols-2 3xl:grid-cols-2 lg:grid-cols-[70%_30%]  grid-cols-[70%_30%]  gap-0">
-                  {/* Reception */}
-                  <div>
-                    <img
-                      src="/assets/rece.png"
-                      alt=""
-                      className="w-13 h-13 mb-2"
-                    />
-
-                    <h3 className="text-xl md:text-3xl lg:text-4xl leading-none">
-                     Reception
-                    </h3>
-
-                    <p className="mt-2 text-[10px] lg:text-[16px]">
-                      Thursday, 12th october 2026
-                    </p>
-
-                    <p className="text-[10px] lg:text-[16px]">
-                      7:30 pm onwards
-                    </p>
-                  </div>
-
-                  {/* Wedding */}
-                  <div className="">
-                    {/* <h3 className="text-xl  md:text-3xl lg:text-4xl leading-none">
+                    {/* Wedding */}
+                    <div className="">
+                      {/* <h3 className="text-xl  md:text-3xl lg:text-4xl leading-none">
                       Wedding
                     </h3>
 
@@ -236,51 +133,51 @@ export default function CoupleMessage() {
                     <p className="text-[10px] lg:text-[16px]">
                       7:30 am onwards
                     </p> */}
-                  </div>
-                </div>
-
-                {/* Divider */}
-                <div className="border-t border-[#C57A08] my-7 lg:my-10 3xl:w-75 w-50 md:w-80 lg:w-80"></div>
-
-                {/* Bottom */}
-                <div className="grid md:grid-cols-2  3xl:grid-cols-[45%_50%] grid-cols-[60%_40%] lg:grid-cols-[60%_40%] items-end mt-5 lg:mt-5">
-                  {/* Venue */}
-                  <div>
-                    <h3 className="text-xl lg:text-4xl md:text-3xl leading-none">
-                      Venue
-                    </h3>
-
-                    <p className="mt-2 text-[10px] lg:text-[16px] leading-relaxed">
-                     ABRIGO Hotels and Resorts Pvt. Ltd,
-                     <br/>
-                     Tamilnadu, Chennai
-                    </p>
+                    </div>
                   </div>
 
-                  {/* QR */}
-                  <div className="flex flex-col items-center lg:ml-3">
-                    <img
-                      src="/assets/chennai_qr.png"
-                      alt="QR Code"
-                      className="w-16 h-16 lg:w-24 lg:h-24 border border-[#C57A08]"
-                    />
+                  {/* Divider */}
+                  <div className="border-t border-[#C57A08] my-7 lg:my-10 3xl:w-75 w-50 md:w-80 lg:w-80"></div>
 
-                    {/* <p className="mt-1 text-[8px] lg:text-sm underline">
+                  {/* Bottom */}
+                  <div className="grid md:grid-cols-2  3xl:grid-cols-[45%_50%] grid-cols-[60%_40%] lg:grid-cols-[60%_40%] items-end mt-5 lg:mt-5">
+                    {/* Venue */}
+                    <div>
+                      <h3 className="text-xl lg:text-4xl md:text-3xl leading-none">
+                        Venue
+                      </h3>
+
+                      <p className="mt-2 text-[10px] lg:text-[16px] leading-relaxed">
+                        ABRIGO Hotels and Resorts Pvt. Ltd,
+                        <br />
+                        Tamilnadu, Chennai
+                      </p>
+                    </div>
+
+                    {/* QR */}
+                    <div className="flex flex-col items-center lg:ml-3">
+                      <img
+                        src="/assets/chennai_qr.png"
+                        alt="QR Code"
+                        className="w-16 h-16 lg:w-24 lg:h-24 border border-[#C57A08]"
+                      />
+
+                      {/* <p className="mt-1 text-[8px] lg:text-sm underline">
                       Scan to get directions
                     </p> */}
-                    <a
-                      href="https://maps.app.goo.gl/H74iLhPuTouuMdnz5"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mt-1 text-[8px] lg:text-[12px] underline text-[#C57A08] transition"
-                    >
-                      Scan to get directions
-                    </a>
+                      <a
+                        href="https://maps.app.goo.gl/H74iLhPuTouuMdnz5"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-1 text-[8px] lg:text-[12px] underline text-[#C57A08] transition"
+                      >
+                        Scan to get directions
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
           </div>
         </div>
       </div>
