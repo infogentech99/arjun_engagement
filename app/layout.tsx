@@ -15,12 +15,12 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://arjundemo.vercel.app/"),
+  metadataBase: new URL("https://arjun-engagement.vercel.app/"),
 
   openGraph: {
     title: "Arjun Reddy & Divya Srinivasan",
     description: "Join as they begin their forever. 8th, 10th October and 12th October 2026",
-    url: "https://arjundemo.vercel.app/",
+    url: "https://arjun-engagement.vercel.app/",
     siteName: "InviteArc",
     images: [
       {
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
 
  other: {
-    "og:image:secure_url": "arjundemo.vercel.app/og.jpg",
+    "og:image:secure_url": "arjun-engagement.vercel.app/og.jpg",
     "og:image:type": "image/jpg",
   },
 
