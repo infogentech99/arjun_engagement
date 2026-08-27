@@ -1,5 +1,3 @@
-import DisableInspect from "@/app/components/DisableInspect";
-import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -13,13 +11,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-
-export const metadata: Metadata = {
+export const metadata = {
   metadataBase: new URL("https://arjun-engagement.vercel.app/"),
 
   openGraph: {
     title: "Arjun Reddy & Divya Srinivasan",
-    description: "Join as they begin their forever. 8th, 10th October and 12th October 2026",
+    description: "Join as they begin their forever. 29th, 30th August and 3rd September 2026",
     url: "https://arjun-engagement.vercel.app/",
     siteName: "InviteArc",
     images: [
@@ -27,8 +24,8 @@ export const metadata: Metadata = {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "Arjun Reddy & Divya Srinivasan ",
-      }, 
+        alt: "Arjun Reddy & Divya Srinivasan",
+      },
     ],
     type: "website",
   },
@@ -42,29 +39,20 @@ export const metadata: Metadata = {
   },
 
  other: {
-    "og:image:secure_url": "arjun-engagement.vercel.app/og.jpg",
-    "og:image:type": "image/jpg",
+    "og:image:secure_url": "https://arjun-engagement.vercel.app/og.jpg",
+    "og:image:type": "image/jpeg",
   },
 
 
 };
 
-
-
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body 
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-      <DisableInspect /> 
-        {children}
-        
-      </body>
+    <html
+      lang="en"
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+    >
+      <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
 }
